@@ -1,0 +1,23 @@
+.layout {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 1rem;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .mainContent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    .layout {
+        padding: 0;
+    }
+}

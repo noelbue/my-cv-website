@@ -1,0 +1,39 @@
+[
+    {
+        "educationLogo": "/images/iu-logo.png",
+        "educationLogoUrl": "https://www.iu.de/en/",
+        "educationInfoTags": [
+            "April 2023 - April 2027", 
+            "Bad Honnef, Germany"
+        ],
+        "educationTitle": "B.Sc. Computer Science",
+        "educationDescription": "Comprehensive studies in computer science with a focus on software development, algorithms and data structures. Practice-oriented projects in Java and web development. Specialization in databases, IT security and agile project management. Development of skills in scientific work and ethical decision-making in IT.",
+        "educationTags": [
+            "Java",
+            "Python",
+            "Web Development",
+            "Algorithms",
+            "Data Structures",
+            "Databases",
+            "Software Engineering",
+            "Agile",
+            "Networks"
+        ]
+    },
+    {
+        "educationLogo": "/images/gbs-logo.png",
+        "educationLogoUrl": "https://www.gbssg.ch/",
+        "educationInfoTags": [
+            "July 2015 - July 2019", 
+            "St. Gallen, Switzerland"
+        ],
+        "educationTitle": "Federal Certificate of Proficiency as a Polygraph",
+        "educationDescription": "Comprehensive training in media production with a focus on printing. Acquisition of specialist knowledge in layout, typography and digital image processing. Practical experience with professional pre-press software and workflow management systems. Development of skills in customer consulting and project coordination.",
+        "educationTags": [
+            "Layout & Design",
+            "Digital Printing",
+            "Picture Editing",
+            "Typography"
+        ]
+    }
+]  

@@ -1,0 +1,70 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --tag-background: #f0f0f0;
+}
+
+:root.dark-mode {
+    --background-color: #141414;
+    --text-color: #F2F2F2;
+    --about-me-tag-background: #E85F46;
+    --about-me-text-color: #FFF1E6;
+    --tag-background: #5368FF;
+    --tag-text-color: #E6E9FF;
+    --infotag-background: #3E3E3E;
+    --infotag-text-color: #F2F2F2;
+    --box-background: #272727;
+}
+
+:root.light-mode {
+    --background-color: #EEF1F9;
+    --text-color: #141414;
+    --about-me-tag-background: #FFF1E6;
+    --about-me-text-color: #FF2700;
+    --tag-background: #E6E9FF;
+    --tag-text-color: #001FFF;
+    --infotag-background: #F2F2F2;
+    --infotag-text-color: #5F5F5F;
+    --box-background: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not(.light-mode) {
+        --background-color: #141414;
+        --text-color: #F2F2F2;
+        --about-me-tag-background: #E85F46;
+        --about-me-text-color: #FFF1E6;
+        --tag-background: #5368FF;
+        --tag-text-color: #E6E9FF;
+        --infotag-background: #3E3E3E;
+        --infotag-text-color: #F2F2F2;
+        --box-background: #272727;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root:not(.dark-mode) {
+        --background-color: #EEF1F9;
+        --text-color: #141414;
+        --about-me-tag-background: #FFF1E6;
+        --about-me-text-color: #FF2700;
+        --tag-background: #E6E9FF;
+        --tag-text-color: #001FFF;
+        --infotag-background: #F2F2F2;
+        --infotag-text-color: #5F5F5F;
+        --box-background: #FFFFFF;
+    }
+}
+
+html,
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}

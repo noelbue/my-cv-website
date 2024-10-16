@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.column {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .column:first-child {
+        width: 100%;
+    }
+
+    .column:not(:first-child) {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .column {
+        width: 33.333%;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        margin: 0;
+    }
+}
