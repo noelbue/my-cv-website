@@ -8,5 +8,15 @@
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/noel-b%C3%BCrgler-662b2118b/",
         "icon": "linkedin"
+    },
+    {
+        "name": "Email",
+        "url": "mailto:mail@noelbuergler.ch",
+        "icon": "envelope"
+    },
+    {
+        "name": "Phone",
+        "url": "tel:+41787832814",
+        "icon": "phone"
     }
 ]

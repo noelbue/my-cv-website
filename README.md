@@ -11,11 +11,12 @@ This website serves as my online CV and portfolio, showcasing my professional ex
 - [Netlify](https://www.netlify.com/): A powerful serverless platform for automatic deployment and hosting.
 
 ## 🎨 Featuress
-- Responsive design that works on desktop and mobile
-- Dark/Light mode toggle for comfortable viewing in any environment
-- Sections for About Me, Experience, and Education
-- Social media links to my professional profiles
-- Fast loading times thanks to Gatsby's static site generation and image optimization
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Dark/Light Mode Toggle:** Switch between themes for comfortable viewing in any environment.
+- **Comprehensive Sections:** Dedicated sections for About Me, Experience, and Education.
+- **Social Media Integration:** Links to my professional profiles.
+- **Optimized Performance:** Fast loading times leveraging Gatsby's static site generation and image optimization.
+- **PDF Export:** Ability to export the CV as a PDF file.
 
 ## 💼 Content Sections
 1. **About Me**: A brief introduction to who I am and what I do.

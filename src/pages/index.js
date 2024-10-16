@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useRef } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import AboutMe from "../components/AboutMe"
@@ -6,26 +6,60 @@ import ResumeEntry from "../components/ResumeEntry"
 import ThemeToggle from "../components/ThemeToggle"
 import SocialLinks from "../components/SocialLinks"
 import * as styles from "./index.module.css"
+import * as pdfStyles from "../styles/pdf-styles.css"
+import html2pdf from 'html2pdf.js'
 
-const IndexPage = ({ data }) => (
-  <Layout>
-    <div className={styles.content}>
-      <section className={styles.column}>
-        {data.aboutMeJson && <AboutMe data={data.aboutMeJson} />}
-        <div className={styles.bottomRow}>
-          <SocialLinks links={data.allSocialLinksJson.edges.map(edge => edge.node)} />
-          <ThemeToggle />
-        </div>
-      </section>
-      <section className={styles.column}>
-        {data.allExperienceJson && <ResumeEntry data={data.allExperienceJson.edges} type="Experience" />}
-      </section>
-      <section className={styles.column}>
-        {data.allEducationJson && <ResumeEntry data={data.allEducationJson.edges} type="Education" />}
-      </section>
-    </div>
-  </Layout>
-)
+const IndexPage = ({ data }) => {
+  const contentRef = useRef(null);
+
+  const generatePdf = () => {
+    if (!contentRef.current) return;
+  
+    const content = contentRef.current.cloneNode(true);
+    content.classList.add('pdf-mode');
+    document.body.appendChild(content);
+  
+    const opt = {
+      margin: 10,
+      filename: 'noel_buergler_cv.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { 
+        scale: 2,
+        useCORS: true,
+        logging: true,
+        letterRendering: true
+      },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+  
+    html2pdf().set(opt).from(content).save().then(() => {
+      document.body.removeChild(content);
+    }).catch(err => console.error('PDF generation failed', err));
+  };
+
+  return (
+    <Layout>
+      <div className={styles.content} ref={contentRef}>
+        <section className={styles.column}>
+          {data.aboutMeJson && <AboutMe data={data.aboutMeJson} />}
+          <div className={styles.bottomRow}>
+            <SocialLinks
+              links={data.allSocialLinksJson.edges.map(edge => edge.node)}
+              onPdfClick={generatePdf}
+            />
+            <ThemeToggle />
+          </div>
+        </section>
+        <section className={styles.column}>
+          {data.allExperienceJson && <ResumeEntry data={data.allExperienceJson.edges} type="Experience" />}
+        </section>
+        <section className={styles.column}>
+          {data.allEducationJson && <ResumeEntry data={data.allEducationJson.edges} type="Education" />}
+        </section>
+      </div>
+    </Layout>
+  )
+}
 
 export const query = graphql`
   query {
