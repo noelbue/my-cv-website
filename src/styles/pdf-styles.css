@@ -34,6 +34,11 @@
     color: black;
 }
 
+.pdf-mode p {
+    display: block;
+    color: black;
+}
+
 .pdf-mode h1 {
     font-size: 16pt;
 }
@@ -54,17 +59,14 @@
     height: auto;
 }
 
-.pdf-mode [class*="experienceInfoTag"],
-.pdf-mode [class*="experienceTag"],
-.pdf-mode [class*="educationInfoTag"],
-.pdf-mode [class*="educationTag"] {
-    display: inline-block;
-    background-color: #f0f0f0;
+.pdf-mode [class*="aboutMe"] [class*="tag"] {
+    display: inline;
+    background-color: transparent;
     color: black;
-    padding: 2px 6px;
-    margin: 2px;
-    border-radius: 3px;
-    font-size: 8pt;
+    padding: 0;
+    margin: 0 4px 0 0;
+    font-size: 10pt;
+    position: relative;
 }
 
 .pdf-mode [class*="aboutMe"] [class*="tag"] {
@@ -75,6 +77,22 @@
     margin: 0 4px 0 0;
     font-size: 10pt;
     position: relative;
+}
+
+.pdf-mode span {
+    background-color: #F2F2F2;
+    color: #5F5F5F;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.pdf-mode [class*="resumeHeader"], .pdf-mode [class*="resumeTitle"], .pdf-mode [class*="resumeDescription"], .pdf-mode [class*="header"], .pdf-mode [class*="description"] {
+    margin-left: -20px;
+}
+
+.pdf-mode [class*="resumeTags"], .pdf-mode [class*="tag"]  {
+    margin-left: -30px;
 }
 
 .pdf-mode [class*="aboutMe"] [class*="tag"]:not(:last-child)::after {
