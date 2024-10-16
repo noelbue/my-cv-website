@@ -6,24 +6,25 @@ import ResumeEntry from "../components/ResumeEntry"
 import ThemeToggle from "../components/ThemeToggle"
 import SocialLinks from "../components/SocialLinks"
 import * as styles from "./index.module.css"
-import * as pdfStyles from "../styles/pdf-styles.css"
-import html2pdf from 'html2pdf.js'
 
 const IndexPage = ({ data }) => {
   const contentRef = useRef(null);
 
-  const generatePdf = () => {
+  const generatePdf = async () => {
+    if (typeof window === 'undefined') return; // Check if we're in the browser
     if (!contentRef.current) return;
-  
+
+    const html2pdf = (await import('html2pdf.js')).default;
+
     const content = contentRef.current.cloneNode(true);
     content.classList.add('pdf-mode');
     document.body.appendChild(content);
-  
+
     const opt = {
       margin: 10,
       filename: 'noel_buergler_cv.pdf',
       image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { 
+      html2canvas: {
         scale: 2,
         useCORS: true,
         logging: true,
@@ -31,7 +32,7 @@ const IndexPage = ({ data }) => {
       },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
-  
+
     html2pdf().set(opt).from(content).save().then(() => {
       document.body.removeChild(content);
     }).catch(err => console.error('PDF generation failed', err));
