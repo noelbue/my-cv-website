@@ -13,10 +13,5 @@
         "name": "Email",
         "url": "mailto:mail@noelbuergler.ch",
         "icon": "envelope"
-    },
-    {
-        "name": "Phone",
-        "url": "tel:+41787832814",
-        "icon": "phone"
     }
 ]

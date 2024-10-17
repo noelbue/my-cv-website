@@ -51,8 +51,10 @@ const IndexPage = ({ data }) => {
               links={data.allSocialLinksJson.edges.map(edge => edge.node)}
               onPdfClick={generatePdf}
             />
-            <LanguageSwitcher />
-            <ThemeToggle />
+            <div className={styles.togglesWrapper}>
+              <LanguageSwitcher />
+              <ThemeToggle />
+            </div>
           </div>
         </section>
         <section className={styles.column}>
