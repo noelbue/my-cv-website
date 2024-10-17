@@ -1,7 +1,8 @@
+// gatsby-node.js
 exports.createSchemaCustomization = ({ actions }) => {
     const { createTypes } = actions
     const typeDefs = `
-      type AboutMeJson implements Node @dontInfer {
+      type CustomAboutMeJson implements Node @dontInfer {
         en: AboutMeContent
         de: AboutMeContent
       }
@@ -11,7 +12,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         profileDescription: String
         profileTags: [String]
       }
-      type ExperienceJson implements Node @dontInfer {
+      type CustomExperienceJson implements Node @dontInfer {
         en: [ExperienceContent]
         de: [ExperienceContent]
       }
@@ -23,7 +24,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         experienceDescription: String
         experienceTags: [String]
       }
-      type EducationJson implements Node @dontInfer {
+      type CustomEducationJson implements Node @dontInfer {
         en: [EducationContent]
         de: [EducationContent]
       }
@@ -40,41 +41,41 @@ exports.createSchemaCustomization = ({ actions }) => {
 }
 
 exports.onCreateNode = ({ node, actions }) => {
-    const { createNode, createNodeField } = actions
+    const { createNode } = actions
     if (node.internal.type === 'File') {
-        if (node.name === 'about-me') {
-            const content = JSON.parse(node.internal.content)
+        const nodeName = node.name
+        const content = JSON.parse(node.internal.content)
+
+        if (nodeName === 'about-me') {
             createNode({
                 ...content,
                 id: 'about-me',
                 parent: node.id,
                 children: [],
                 internal: {
-                    type: 'AboutMeJson',
+                    type: 'CustomAboutMeJson',
                     contentDigest: node.internal.contentDigest,
                 },
             })
-        } else if (node.name === 'experience') {
-            const content = JSON.parse(node.internal.content)
+        } else if (nodeName === 'experience') {
             createNode({
                 ...content,
                 id: 'experience',
                 parent: node.id,
                 children: [],
                 internal: {
-                    type: 'ExperienceJson',
+                    type: 'CustomExperienceJson',
                     contentDigest: node.internal.contentDigest,
                 },
             })
-        } else if (node.name === 'education') {
-            const content = JSON.parse(node.internal.content)
+        } else if (nodeName === 'education') {
             createNode({
                 ...content,
                 id: 'education',
                 parent: node.id,
                 children: [],
                 internal: {
-                    type: 'EducationJson',
+                    type: 'CustomEducationJson',
                     contentDigest: node.internal.contentDigest,
                 },
             })

@@ -12,8 +12,9 @@ import * as styles from "./index.module.css"
 const IndexPage = ({ data }) => {
   const { t } = useTranslation()
   const contentRef = useRef(null);
+
   const generatePdf = async () => {
-    if (typeof window === 'undefined') return; // Check if we're in the browser
+    if (typeof window === 'undefined') return;
     if (!contentRef.current) return;
 
     const html2pdf = (await import('html2pdf.js')).default;
@@ -44,7 +45,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <div className={styles.content} ref={contentRef}>
         <section className={styles.column}>
-          {data.aboutMeJson && <AboutMe data={data.aboutMeJson} />}
+          {data.customAboutMeJson && <AboutMe data={data.customAboutMeJson} />}
           <div className={styles.bottomRow}>
             <SocialLinks
               links={data.allSocialLinksJson.edges.map(edge => edge.node)}
@@ -55,10 +56,10 @@ const IndexPage = ({ data }) => {
           </div>
         </section>
         <section className={styles.column}>
-          {data.experienceJson && <ResumeEntry data={data.experienceJson} type="Experience" />}
+          {data.customExperienceJson && <ResumeEntry data={data.customExperienceJson} type="Experience" />}
         </section>
         <section className={styles.column}>
-          {data.educationJson && <ResumeEntry data={data.educationJson} type="Education" />}
+          {data.customEducationJson && <ResumeEntry data={data.customEducationJson} type="Education" />}
         </section>
       </div>
     </Layout>
@@ -76,7 +77,7 @@ export const query = graphql`
         }
       }
     }
-    aboutMeJson {
+    customAboutMeJson {  
       en {
         profilePicture
         profileTitle
@@ -90,7 +91,7 @@ export const query = graphql`
         profileTags
       }
     }
-    experienceJson {
+    customExperienceJson {
       en {
         experienceLogo
         experienceLogoUrl
@@ -108,7 +109,7 @@ export const query = graphql`
         experienceTags
       }
     }
-    educationJson {
+    customEducationJson {
       en {
         educationLogo
         educationLogoUrl

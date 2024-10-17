@@ -3,7 +3,9 @@ import { useI18next } from 'gatsby-plugin-react-i18next'
 import * as styles from './LanguageSwitcher.module.css'
 
 const LanguageSwitcher = () => {
-    const { languages, changeLanguage, language } = useI18next()
+    const { changeLanguage, language } = useI18next()
+
+    const alternateLanguage = language === 'en' ? 'DE' : 'EN'
 
     const toggleLanguage = () => {
         const newLang = language === 'en' ? 'de' : 'en'
@@ -12,7 +14,7 @@ const LanguageSwitcher = () => {
 
     return (
         <button onClick={toggleLanguage} className={styles.languageButton}>
-            {language.toUpperCase()}
+            {alternateLanguage}
         </button>
     )
 }
