@@ -82,8 +82,8 @@
     transition: transform 0.2s ease-in-out;
 }
 
-.logoLink:hover {
-    transform: scale(1.05);
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .logo {
