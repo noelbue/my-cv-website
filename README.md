@@ -10,9 +10,10 @@ This website serves as my online CV and portfolio, showcasing my professional ex
 - [GraphQL](https://graphql.org/): A query language for APIs.
 - [Netlify](https://www.netlify.com/): A powerful serverless platform for automatic deployment and hosting.
 
-## 🎨 Featuress
+## 🎨 Features
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 - **Dark/Light Mode Toggle:** Switch between themes for comfortable viewing in any environment.
+- **Multilingual Support:** Available in English and German.
 - **Comprehensive Sections:** Dedicated sections for About Me, Experience, and Education.
 - **Social Media Integration:** Links to my professional profiles.
 - **Optimized Performance:** Fast loading times leveraging Gatsby's static site generation and image optimization.

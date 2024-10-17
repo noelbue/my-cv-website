@@ -1,35 +1,34 @@
 import React from "react"
+import { useTranslation } from 'gatsby-plugin-react-i18next'
 import * as styles from "./ResumeEntry.module.css"
 
 const ResumeEntry = ({ data, type }) => {
+    const { t, i18n } = useTranslation()
+    const content = data[i18n.language]
+
+    if (!content) {
+        return null; // or some fallback UI
+    }
+
     return (
         <section className={styles.resumeSection}>
-            <h2 className={styles.sectionTitle}>{type}</h2>
-            {data.map(({ node }, index) => (
+            <h2 className={styles.sectionTitle}>{t(type.toLowerCase())}</h2>
+            {content.map((entry, index) => (
                 <div key={index} className={styles.resumeItem}>
                     <div className={styles.resumeHeader}>
-                        <a
-                            href={node[`${type.toLowerCase()}LogoUrl`]}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={styles.logoLink}
-                        >
-                            <img
-                                src={node[`${type.toLowerCase()}Logo`]}
-                                alt={node[`${type.toLowerCase()}Title`]}
-                                className={styles.logo}
-                            />
+                        <a href={entry[`${type.toLowerCase()}LogoUrl`]} target="_blank" rel="noopener noreferrer">
+                            <img src={entry[`${type.toLowerCase()}Logo`]} alt={entry[`${type.toLowerCase()}Title`]} className={styles.logo} />
                         </a>
                         <div className={styles.resumeInfoTags}>
-                            {node[`${type.toLowerCase()}InfoTags`].map((tag, tagIndex) => (
+                            {entry[`${type.toLowerCase()}InfoTags`].map((tag, tagIndex) => (
                                 <span key={tagIndex} className={styles.resumeInfoTag}>{tag}</span>
                             ))}
                         </div>
                     </div>
-                    <h3 className={styles.resumeTitle}>{node[`${type.toLowerCase()}Title`]}</h3>
-                    <p className={styles.resumeDescription}>{node[`${type.toLowerCase()}Description`]}</p>
+                    <h3 className={styles.resumeTitle}>{entry[`${type.toLowerCase()}Title`]}</h3>
+                    <p className={styles.resumeDescription}>{entry[`${type.toLowerCase()}Description`]}</p>
                     <div className={styles.resumeTags}>
-                        {node[`${type.toLowerCase()}Tags`].map((tag, tagIndex) => (
+                        {entry[`${type.toLowerCase()}Tags`].map((tag, tagIndex) => (
                             <span key={tagIndex} className={styles.resumeTag}>{tag}</span>
                         ))}
                     </div>

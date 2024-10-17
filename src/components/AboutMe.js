@@ -1,22 +1,32 @@
 import React from "react"
+import { useTranslation } from 'gatsby-plugin-react-i18next'
 import * as styles from "./AboutMe.module.css"
 
-const AboutMe = ({ data }) => (
-    <div className={styles.aboutMeWrapper}>
-        <h2 className={styles.sectionTitle}>About Me</h2>
-        <div className={styles.aboutMe}>
-            <div className={styles.header}>
-                <img src={data.profilePicture} alt={data.profileTitle} className={styles.profilePicture} />
-                <h1 className={styles.title}>{data.profileTitle}</h1>
-            </div>
-            <p className={styles.description}>{data.profileDescription}</p>
-            <div className={styles.tags}>
-                {data.profileTags.map((tag, index) => (
-                    <span key={index} className={styles.tag}>{tag}</span>
-                ))}
+const AboutMe = ({ data }) => {
+    const { t, i18n } = useTranslation()
+    const content = data && data[i18n.language]
+
+    if (!content) {
+        return null; // or some fallback UI
+    }
+
+    return (
+        <div className={styles.aboutMeWrapper}>
+            <h2 className={styles.sectionTitle}>{t('aboutMe')}</h2>
+            <div className={styles.aboutMe}>
+                <div className={styles.header}>
+                    <img src={content.profilePicture} alt={content.profileTitle} className={styles.profilePicture} />
+                    <h1 className={styles.title}>{content.profileTitle}</h1>
+                </div>
+                <p className={styles.description}>{content.profileDescription}</p>
+                <div className={styles.tags}>
+                    {content.profileTags.map((tag, index) => (
+                        <span key={index} className={styles.tag}>{tag}</span>
+                    ))}
+                </div>
             </div>
         </div>
-    </div>
-)
+    )
+}
 
 export default AboutMe

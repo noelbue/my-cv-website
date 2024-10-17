@@ -1,15 +1,17 @@
 import React, { useRef } from "react"
 import { graphql } from "gatsby"
+import { useTranslation } from 'gatsby-plugin-react-i18next'
 import Layout from "../components/Layout"
 import AboutMe from "../components/AboutMe"
 import ResumeEntry from "../components/ResumeEntry"
 import ThemeToggle from "../components/ThemeToggle"
 import SocialLinks from "../components/SocialLinks"
+import LanguageSwitcher from "../components/LanguageSwitcher"
 import * as styles from "./index.module.css"
 
 const IndexPage = ({ data }) => {
+  const { t } = useTranslation()
   const contentRef = useRef(null);
-
   const generatePdf = async () => {
     if (typeof window === 'undefined') return; // Check if we're in the browser
     if (!contentRef.current) return;
@@ -48,14 +50,15 @@ const IndexPage = ({ data }) => {
               links={data.allSocialLinksJson.edges.map(edge => edge.node)}
               onPdfClick={generatePdf}
             />
+            <LanguageSwitcher />
             <ThemeToggle />
           </div>
         </section>
         <section className={styles.column}>
-          {data.allExperienceJson && <ResumeEntry data={data.allExperienceJson.edges} type="Experience" />}
+          {data.experienceJson && <ResumeEntry data={data.experienceJson} type="Experience" />}
         </section>
         <section className={styles.column}>
-          {data.allEducationJson && <ResumeEntry data={data.allEducationJson.edges} type="Education" />}
+          {data.educationJson && <ResumeEntry data={data.educationJson} type="Education" />}
         </section>
       </div>
     </Layout>
@@ -63,35 +66,64 @@ const IndexPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query {
-    aboutMeJson {
-      profilePicture
-      profileTitle
-      profileDescription
-      profileTags
-    }
-    allExperienceJson {
+  query ($language: String!) {
+    locales: allLocale(filter: {language: {eq: $language}}) {
       edges {
         node {
-          experienceLogo
-          experienceLogoUrl
-          experienceInfoTags
-          experienceTitle
-          experienceDescription
-          experienceTags
+          ns
+          data
+          language
         }
       }
     }
-    allEducationJson {
-      edges {
-        node {
-          educationLogo
-          educationLogoUrl
-          educationInfoTags
-          educationTitle
-          educationDescription
-          educationTags
-        }
+    aboutMeJson {
+      en {
+        profilePicture
+        profileTitle
+        profileDescription
+        profileTags
+      }
+      de {
+        profilePicture
+        profileTitle
+        profileDescription
+        profileTags
+      }
+    }
+    experienceJson {
+      en {
+        experienceLogo
+        experienceLogoUrl
+        experienceInfoTags
+        experienceTitle
+        experienceDescription
+        experienceTags
+      }
+      de {
+        experienceLogo
+        experienceLogoUrl
+        experienceInfoTags
+        experienceTitle
+        experienceDescription
+        experienceTags
+      }
+    }
+    educationJson {
+      en {
+        educationLogo
+        educationLogoUrl
+        educationInfoTags
+        educationTitle
+        educationDescription
+        educationTags
+      }
+      de {
+        educationLogo
+        educationLogoUrl
+        educationInfoTags
+        educationTitle
+        educationDescription
+        educationTags
       }
     }
     allSocialLinksJson {
