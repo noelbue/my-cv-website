@@ -1,6 +1,5 @@
-// gatsby-node.js
 exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions
+    const { createTypes } = actions;
     const typeDefs = `
       type CustomAboutMeJson implements Node @dontInfer {
         en: AboutMeContent
@@ -36,52 +35,52 @@ exports.createSchemaCustomization = ({ actions }) => {
         educationDescription: String
         educationTags: [String]
       }
-    `
-    createTypes(typeDefs)
-}
+    `;
+    createTypes(typeDefs);
+};
 
-exports.onCreateNode = ({ node, actions }) => {
-    const { createNode } = actions
-    if (node.internal.type === 'File') {
-        const nodeName = node.name
-        const content = JSON.parse(node.internal.content)
+exports.onCreateNode = async ({ node, actions, loadNodeContent }) => {
+    const { createNode } = actions;
 
-        if (nodeName === 'about-me') {
-            createNode({
-                ...content,
-                id: 'about-me',
-                parent: node.id,
-                children: [],
-                internal: {
-                    type: 'CustomAboutMeJson',
-                    contentDigest: node.internal.contentDigest,
-                },
-            })
-        } else if (nodeName === 'experience') {
-            createNode({
-                ...content,
-                id: 'experience',
-                parent: node.id,
-                children: [],
-                internal: {
-                    type: 'CustomExperienceJson',
-                    contentDigest: node.internal.contentDigest,
-                },
-            })
-        } else if (nodeName === 'education') {
-            createNode({
-                ...content,
-                id: 'education',
-                parent: node.id,
-                children: [],
-                internal: {
-                    type: 'CustomEducationJson',
-                    contentDigest: node.internal.contentDigest,
-                },
-            })
+    if (
+        node.internal.type === 'File' &&
+        node.sourceInstanceName === 'data' &&
+        node.extension === 'json'
+    ) {
+        const nodeName = node.name;
+        const content = await loadNodeContent(node);
+
+        let parsedContent;
+        try {
+            parsedContent = JSON.parse(content);
+        } catch (error) {
+            console.error(`Error parsing JSON from file ${node.relativePath}: ${error}`);
+            return;
         }
+
+        let typeName;
+        if (nodeName === 'about-me') {
+            typeName = 'CustomAboutMeJson';
+        } else if (nodeName === 'experience') {
+            typeName = 'CustomExperienceJson';
+        } else if (nodeName === 'education') {
+            typeName = 'CustomEducationJson';
+        } else {
+            return;
+        }
+
+        createNode({
+            ...parsedContent,
+            id: nodeName,
+            parent: node.id,
+            children: [],
+            internal: {
+                type: typeName,
+                contentDigest: node.internal.contentDigest,
+            },
+        });
     }
-}
+};
 
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     if (stage === "build-html" || stage === "develop-html") {
@@ -94,6 +93,6 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
                     },
                 ],
             },
-        })
+        });
     }
-}
+};
