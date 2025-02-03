@@ -24,6 +24,14 @@ This website serves as my online CV and portfolio, showcasing my professional ex
 2. **Experience**: A detailed list of my professional experiences and accomplishments.
 3. **Education**: Information about my educational background and qualifications.
 
+## 🚀 Deployment
+- Continuous Deployment via [Netlify](https://www.netlify.com/)
+- Automatic builds on push to main branch
+- Preview deployments for pull requests
+- Custom domain with SSL
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f407bfc-79a3-4048-9ebd-14d0e0c7779c/deploy-status)](https://app.netlify.com/sites/noelbue/deploys)
+
 ## 🔗 Live Site
 You can view the live version of my CV at [https://www.noelbuergler.ch](https://www.noelbuergler.ch).
 
