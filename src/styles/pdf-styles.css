@@ -1,44 +1,26 @@
+/* Base PDF Mode Styles */
 .pdf-mode {
     font-size: 10pt;
     color: black;
     background: white;
 }
 
-.pdf-mode [class*="content"],
-.pdf-mode [class*="column"] {
+/* Header Information */
+.pdf-mode::before {
+    content: "Curriculum vitae    |    noelbuergler.ch   |   mail@noelbuergler.ch    |    +41 78 783 28 14    |    Hauptstrasse 2, CH-9320 Arbon";
     display: block;
     width: 100%;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    padding: 0;
+    margin-bottom: 20px;
+    padding: 0 10px 10px;
+    font-size: 9pt;
+    color: #555;
+    text-align: center;
+    white-space: pre;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
-.pdf-mode [class*="bottomRow"],
-.pdf-mode [class*="themeToggle"] {
-    display: none;
-}
-
-.pdf-mode div {
-    background-color: transparent;
-}
-
-.pdf-mode .experienceInfoTag {
-    display: none;
-}
-
-.pdf-mode h1,
-.pdf-mode h2,
-.pdf-mode h3,
-.pdf-mode p {
-    display: block;
-    color: black;
-}
-
-.pdf-mode p {
-    display: block;
-    color: black;
-}
-
+/* Typography */
 .pdf-mode h1 {
     font-size: 16pt;
 }
@@ -53,46 +35,54 @@
     font-size: 11pt;
 }
 
-.pdf-mode img {
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-}
-
-.pdf-mode [class*="aboutMe"] [class*="tag"] {
-    display: inline;
-    background-color: transparent;
-    color: black;
+/* Layout Components */
+.pdf-mode [class*="content"],
+.pdf-mode [class*="column"] {
+    display: block;
+    width: 100%;
     padding: 0;
-    margin: 0 4px 0 0;
-    font-size: 10pt;
-    position: relative;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
-.pdf-mode [class*="aboutMe"] [class*="tag"] {
-    display: inline;
-    background-color: transparent;
-    color: black;
-    padding: 0;
-    margin: 0 4px 0 0;
-    font-size: 10pt;
-    position: relative;
+.pdf-mode [class*="resumeItem"] {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
 }
 
-.pdf-mode span {
-    background-color: #F2F2F2;
-    color: #5F5F5F;
-    padding: 7px;
-    margin: 5px;
-    border-radius: 10px;
+section {
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
-.pdf-mode [class*="resumeHeader"], .pdf-mode [class*="resumeTitle"], .pdf-mode [class*="resumeDescription"], .pdf-mode [class*="header"], .pdf-mode [class*="description"] {
+/* Margins and Spacing */
+.logo {
+    margin-top: 15px;
+}
+
+.pdf-mode [class*="resumeHeader"],
+.pdf-mode [class*="resumeTitle"],
+.pdf-mode [class*="resumeDescription"],
+.pdf-mode [class*="header"],
+.pdf-mode [class*="description"] {
     margin-left: -20px;
 }
 
-.pdf-mode [class*="resumeTags"], .pdf-mode [class*="tag"]  {
+.pdf-mode [class*="resumeTags"],
+.pdf-mode [class*="tag"] {
     margin-left: -30px;
+}
+
+/* Tag Styles */
+.pdf-mode [class*="aboutMe"] [class*="tag"] {
+    display: inline;
+    position: relative;
+    margin: 0 4px 0 0;
+    padding: 0;
+    font-size: 10pt;
+    background-color: transparent;
+    color: black;
 }
 
 .pdf-mode [class*="aboutMe"] [class*="tag"]:not(:last-child)::after {
@@ -101,26 +91,42 @@
     font-size: 10pt;
 }
 
-section {
-    page-break-inside: avoid;
-    break-inside: avoid;
+.pdf-mode span {
+    margin: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    color: #5F5F5F;
 }
 
-.pdf-mode::before {
-    content: "Curriculum vitae    |    noelbuergler.ch   |   mail@noelbuergler.ch    |    +41 78 783 28 14    |    Hauptstrasse 2, CH-9320 Arbon";
+/* Images */
+.pdf-mode img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hidden Elements */
+.pdf-mode [class*="bottomRow"],
+.pdf-mode [class*="themeToggle"],
+.pdf-mode .experienceInfoTag {
+    display: none;
+}
+
+/* Resets */
+.pdf-mode div {
+    background-color: transparent;
+}
+
+.pdf-mode h1,
+.pdf-mode h2,
+.pdf-mode h3,
+.pdf-mode p {
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 9pt;
-    color: #555;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-    padding: 0 10px 10px 10px;
-    white-space: pre;
-    box-sizing: border-box;
+    color: black;
 }
 
-
+/* Page Settings */
 @page {
     margin: 20mm;
 }
