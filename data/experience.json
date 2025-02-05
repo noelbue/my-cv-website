@@ -51,7 +51,7 @@
                 "Contentful",
                 "Git",
                 "HTML",
-                "CSS",
+                "SCSS",
                 "JS",
                 "PHP",
                 "TypeScript",
@@ -60,7 +60,8 @@
                 "node.js",
                 "Gatsby.js",
                 "MySQL",
-                "Netlify"
+                "Netlify",
+                "CI/CD Pipelines"
             ]
         },
         {
@@ -72,7 +73,7 @@
                 "Full Time – 100%",
                 "9403 Goldach, Switzerland"
             ],
-            "experienceTitle": "Polygraph (Print/Web)",
+            "experienceTitle": "Media Designer (Print/Web)",
             "experienceDescription": "Versatile media production specialist and project manager with expertise in print and digital media. Experience in WordPress development, customized plugins and responsive themes. Comprehensive project management with vjoon K4, from conception to implementation. Expertise in layout creation, image editing and pre-press. Development of automation concepts with Enfocus Switch for process optimization. Operation of digital printing devices (Canon C750). Creation of JavaScript scripts for InDesign to improve microtypography. Setting up and maintaining internal knowledge databases to promote team collaboration.",
             "experienceTags": [
                 "Layout & Design",
@@ -139,7 +140,7 @@
                 "Contentful",
                 "Git",
                 "HTML",
-                "CSS",
+                "SCSS",
                 "JS",
                 "PHP",
                 "TypeScript",
@@ -148,7 +149,8 @@
                 "node.js",
                 "Gatsby.js",
                 "MySQL",
-                "Netlify"
+                "Netlify",
+                "CI/CD Pipelines"
             ]
         },
         {
