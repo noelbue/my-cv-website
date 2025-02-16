@@ -27,12 +27,15 @@
 
 .pdf-mode h2 {
     font-size: 14pt;
+    margin-top: 50px;
 }
 
 .pdf-mode h3,
 .pdf-mode [class*="resumeDescription"],
 .pdf-mode [class*="description"] {
     font-size: 11pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Layout Components */
@@ -46,8 +49,6 @@
 }
 
 .pdf-mode [class*="resumeItem"] {
-    page-break-inside: avoid;
-    break-inside: avoid;
     margin-bottom: 1.5rem;
 }
 
@@ -72,6 +73,8 @@ section {
 .pdf-mode [class*="resumeTags"],
 .pdf-mode [class*="tag"] {
     margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Tag Styles */

@@ -1,34 +1,34 @@
 {
-    "en": {
-        "profilePicture": "/images/profile-pic.png",
-        "profileTitle": "Hey, I'm Noel Bürgler",
-        "profileDescription": "… and I'm a 24-year-old Frontend Engineer specializing in publishing solutions. Currently pursuing a B.Sc. in Computer Science, I combine technical expertise with social skills. Known for my adaptability, resilience, and quick learning ability, I excel in problem-solving and critical thinking. My communication skills and flexibility make me an asset in diverse team environments. With a constant thirst for knowledge, I'm always eager to take on new challenges and innovate in the field of software development.",
-        "profileTags": [
-            "Adaptability",
-            "Problem-Solving",
-            "Critical Thinking",
-            "Communication",
-            "Quick Learner",
-            "Resilience",
-            "German (C2)",
-            "English (C1)",
-            "French (B1)"
-        ]
-    },
-    "de": {
-        "profilePicture": "/images/profile-pic.png",
-        "profileTitle": "Hallo, ich bin Noel Bürgler",
-        "profileDescription": "… und bin ein 24-jähriger Frontend Engineer, spezialisiert auf Publishing-Lösungen. Aktuell studiere ich Informatik und kombiniere technisches Wissen mit sozialen Fähigkeiten. Bekannt für Anpassungsfähigkeit, Belastbarkeit und schnelles Lernen, bringe ich Problemlösungsfähigkeiten und kritisches Denken mit. Meine kommunikativen Fähigkeiten und Flexibilität machen mich zu einer Bereicherung in Teamumgebungen, und mein Wissensdurst treibt mich an, neue Herausforderungen in der Entwicklung anzunehmen.",
-        "profileTags": [
-            "Anpassungsfähigkeit",
-            "Problemlösung",
-            "Kritisches Denken",
-            "Kommunikation",
-            "Schneller Lerner",
-            "Belastbarkeit",
-            "Deutsch (C2)",
-            "Englisch (C1)",
-            "Französisch (B1)"
-        ]
-    }
+  "en": {
+    "profilePicture": "/images/profile-pic.png",
+    "profileTitle": "Hey, I'm Noel Bürgler",
+    "profileDescription": "… and I'm a 24-year-old Application & Frontend Engineer specializing in publishing solutions. Currently pursuing a B.Sc. in Computer Science, I combine technical expertise with social skills. Known for my adaptability, resilience, and quick learning ability, I excel in problem-solving and critical thinking. My communication skills and flexibility make me an asset in diverse team environments. With a constant thirst for knowledge, I'm always eager to take on new challenges and innovate in the field of software development.",
+    "profileTags": [
+      "Adaptability",
+      "Problem-Solving",
+      "Critical Thinking",
+      "Communication",
+      "Quick Learner",
+      "Resilience",
+      "German (C2)",
+      "English (C1)",
+      "French (B1)"
+    ]
+  },
+  "de": {
+    "profilePicture": "/images/profile-pic.png",
+    "profileTitle": "Hallo, ich bin Noel Bürgler",
+    "profileDescription": "… und bin ein 24-jähriger Application & Frontend Engineer, spezialisiert auf Publishing-Lösungen. Aktuell studiere ich Informatik und kombiniere technisches Wissen mit sozialen Fähigkeiten. Bekannt für Anpassungsfähigkeit, Belastbarkeit und schnelles Lernen, bringe ich Problemlösungsfähigkeiten und kritisches Denken mit. Meine kommunikativen Fähigkeiten und Flexibilität machen mich zu einer Bereicherung in Teamumgebungen, und mein Wissensdurst treibt mich an, neue Herausforderungen in der Entwicklung anzunehmen.",
+    "profileTags": [
+      "Anpassungsfähigkeit",
+      "Problemlösung",
+      "Kritisches Denken",
+      "Kommunikation",
+      "Schneller Lerner",
+      "Belastbarkeit",
+      "Deutsch (C2)",
+      "Englisch (C1)",
+      "Französisch (B1)"
+    ]
+  }
 }
