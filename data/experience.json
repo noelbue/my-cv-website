@@ -1,17 +1,56 @@
 {
   "en": [
     {
+      "experienceLogo": "/images/brueggli-admedia.png",
+      "experienceLogoUrl": "https://www.brueggli-admedia.ch/",
+      "experienceInfoTags": [
+        "From October 2025",
+        "Hybrid",
+        "Full Time",
+        "8590 Romanshorn, Switzerland"
+      ],
+      "experienceTitle": "Solutions Architect & Deputy IT Manager",
+      "experienceDescription": "Here begins my next adventure! As Solutions Architect, I get to develop intelligent communication solutions and dive even deeper into the IT world. Additionally, I'll take on responsibility for the entire IT infrastructure as deputy IT manager.\n\nI'm particularly excited about working with new tools like XMPie and Heidelberg Cockpit and expanding my experience in AI integration.",
+      "experienceTags": [
+        "Solution Architecture",
+        "IT Management",
+        "Device Management",
+        "Network Administration",
+        "System Patching",
+        "Workflow Automation",
+        "Enfocus Switch",
+        "XMPie",
+        "Heidelberg Cockpit",
+        "Frontify",
+        "Database Management",
+        "API Integration",
+        "Process Optimization",
+        "Atlassian Administration",
+        "AI Integration",
+        "Digital Communication",
+        "Scripting",
+        "ITIL"
+      ]
+    },
+    {
       "experienceLogo": "/images/topix-ag-logo.png",
       "experienceLogoUrl": "https://www.topix.ch",
       "experienceInfoTags": [
-        "February 2021 - present",
+        "February 2021 - October 2025",
         "Hybrid",
-        "Full Time – 100%",
+        "Full Time",
         "9014 St.Gallen, Switzerland"
       ],
-      "experienceTitle": "Application Engineer",
-      "experienceDescription": "Experienced IT project manager with expertise in the implementation and management of software solutions such as vjoon K4 and Enfocus Switch. Extensive knowledge of server configuration, database management and custom development. Responsible for holistic project management, global IT support and integration of innovative technologies. Development of web projects and automation solutions using REST APIs, Node.js and various web technologies.",
+      "experienceTitle": "Application Engineer/Manager & Project Manager",
+      "experienceDescription": "Here I take care of the technical support for our clients and their publishing systems, and no day is like the other! This means specifically: installing, configuring and keeping vjoon K4, Enfocus Switch and surrounding systems like SQL servers, Tomcats and InDesign servers running.\n\nI'm particularly proud of the collaboration with Red Bull Media House, I get to manage their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it! On the side, I'm also the go-to guy for IT support in all kinds of areas.\n\nBesides the technical work, I also train clients, write documentation and develop interfaces to various APIs. Sometimes I feel like a translator between technology and people, and that's exactly what I enjoy!",
       "experienceTags": [
+        "Project Management",
+        "Stakeholder Management",
+        "Publishing Consultancy",
+        "Solution Training",
+        "Technical Documentation",
+        "System Integrations",
+        "Headless CMS",
         "IIS Webserver",
         "Apache Tomcat",
         "Adobe InDesign Server",
@@ -25,12 +64,12 @@
         "XML",
         "HTML",
         "CSS",
-        "JS",
+        "JavaScript",
         "PHP",
         "XSLT",
         "Express.js",
         "Axios",
-        "node.js",
+        "Node.js",
         "Regex"
       ]
     },
@@ -40,11 +79,11 @@
       "experienceInfoTags": [
         "January 2021 - present",
         "Remote",
-        "Part Time – 20%",
+        "Part Time",
         "9320 Arbon, Switzerland"
       ],
-      "experienceTitle": "Frontend Engineer",
-      "experienceDescription": "Experienced Frontend Engineer and Project Manager. Creation of customized plugins and responsive themes for WordPress. Comprehensive project management from conception to implementation, including client consultation, planning, development and ongoing support. Focus on customized web-solutions, on-time delivery and quality assurance.",
+      "experienceTitle": "Frontend Developer",
+      "experienceDescription": "On the side, I develop websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications.\n\nI particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
       "experienceTags": [
         "Website Design & Development",
         "Custom Themes & Plugins",
@@ -81,11 +120,11 @@
       "experienceInfoTags": [
         "July 2015 - February 2021",
         "On site",
-        "Full Time – 100%",
+        "Full Time",
         "9403 Goldach, Switzerland"
       ],
       "experienceTitle": "Media Designer (Print/Web)",
-      "experienceDescription": "Versatile media production specialist and project manager with expertise in print and digital media. Experience in WordPress development, customized plugins and responsive themes. Comprehensive project management with vjoon K4, from conception to implementation. Expertise in layout creation, image editing and pre-press. Development of automation concepts with Enfocus Switch for process optimization. Operation of digital printing devices (Canon C750). Creation of JavaScript scripts for InDesign to improve microtypography. Setting up and maintaining internal knowledge databases to promote team collaboration.",
+      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included.\n\nParticularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign, that was my entry into programming.",
       "experienceTags": [
         "Layout & Design",
         "Digital Printing",
@@ -101,17 +140,56 @@
   ],
   "de": [
     {
+      "experienceLogo": "/images/brueggli-admedia.png",
+      "experienceLogoUrl": "https://www.brueggli-admedia.ch/",
+      "experienceInfoTags": [
+        "Ab Oktober 2025",
+        "Hybrid",
+        "Vollzeit",
+        "8590 Romanshorn, Schweiz"
+      ],
+      "experienceTitle": "Solutions Architect & Stellv. IT-Leiter",
+      "experienceDescription": "Hier beginnt mein nächstes Abenteuer! Als Solutions Architect darf ich intelligente Kommunikationslösungen entwickeln und dabei noch tiefer in die IT-Welt eintauchen. Zusätzlich übernehme ich als stellvertretender IT-Leiter Verantwortung für die gesamte IT-Infrastruktur.\n\nIch freue mich besonders darauf, mit neuen Tools wie XMPie und Heidelberg Cockpit zu arbeiten und meine Erfahrung in der KI-Integration zu erweitern.",
+      "experienceTags": [
+        "Solution Architecture",
+        "IT-Management",
+        "Device Management",
+        "Netzwerkadministration",
+        "System-Patching",
+        "Workflow-Automatisierung",
+        "Enfocus Switch",
+        "XMPie",
+        "Heidelberg Cockpit",
+        "Frontify",
+        "Datenbankmanagement",
+        "API-Integration",
+        "Prozessoptimierung",
+        "Atlassian-Administration",
+        "KI-Integration",
+        "Digitale Kommunikation",
+        "Scripting",
+        "ITIL"
+      ]
+    },
+    {
       "experienceLogo": "/images/topix-ag-logo.png",
       "experienceLogoUrl": "https://www.topix.ch",
       "experienceInfoTags": [
-        "Februar 2021 - heute",
+        "Februar 2021 - Oktober 2025",
         "Hybrid",
-        "Vollzeit – 100%",
+        "Vollzeit",
         "9014 St.Gallen, Schweiz"
       ],
-      "experienceTitle": "Application Engineer",
-      "experienceDescription": "Erfahrener IT-Projektmanager mit Expertise in der Implementierung und Verwaltung von Softwarelösungen wie vjoon K4 und Enfocus Switch. Umfangreiches Wissen in Serverkonfiguration, Datenbankmanagement und kundenspezifischer Entwicklung. Verantwortlich für ganzheitliches Projektmanagement, globalen IT-Support und Integration innovativer Technologien. Entwicklung von Webprojekten und Automatisierungslösungen unter Verwendung von REST APIs, Node.js und verschiedenen Webtechnologien.",
+      "experienceTitle": "Application Engineer/Manager & Projektmanager",
+      "experienceDescription": "Hier kümmere ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei ist kein Tag wie der andere! Das heisst konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten.\n\nBesonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da darf ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden! Nebenbei bin ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen.\n\nNeben der technischen Arbeit schule ich Kunden, schreibe Dokumentationen und entwickle Schnittstellen zu verschiedenen APIs. Manchmal fühle ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das macht mir Spass!",
       "experienceTags": [
+        "Projektmanagement",
+        "Stakeholder Management",
+        "Publishing-Beratung",
+        "Lösungsschulungen",
+        "Technische Dokumentation",
+        "Systemintegrationen",
+        "Headless CMS",
         "IIS Webserver",
         "Apache Tomcat",
         "Adobe InDesign Server",
@@ -125,11 +203,11 @@
         "XML",
         "HTML",
         "CSS",
-        "JS",
+        "JavaScript",
         "PHP",
         "XSLT",
         "Express.js",
-        "node.js",
+        "Node.js",
         "Regex"
       ]
     },
@@ -139,11 +217,11 @@
       "experienceInfoTags": [
         "Januar 2021 - heute",
         "Remote",
-        "Teilzeit – 20%",
+        "Teilzeit",
         "9320 Arbon, Schweiz"
       ],
-      "experienceTitle": "Frontend Engineer",
-      "experienceDescription": "Erfahrener Frontend Engineer und Projektmanager. Erstellung von benutzerdefinierten Plugins und responsiven Themes für WordPress. Umfassendes Projektmanagement von der Konzeption bis zur Implementierung, einschliesslich Kundenberatung, Planung, Entwicklung und laufender Unterstützung. Fokus auf mageschneiderte Web-Lösungen, pünktliche Lieferung und Qualitätssicherung.",
+      "experienceTitle": "Frontend Developer",
+      "experienceDescription": "Nebenbei entwickle ich Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen.\n\nMir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
       "experienceTags": [
         "Website Design & Development",
         "Custom Themes & Plugins",
@@ -180,11 +258,11 @@
       "experienceInfoTags": [
         "Juli 2015 - Februar 2021",
         "Vor Ort",
-        "Vollzeit – 100%",
+        "Vollzeit",
         "9403 Goldach, Schweiz"
       ],
       "experienceTitle": "Polygraf (Print/Web)",
-      "experienceDescription": "Vielseitiger Medienproduktionsspezialist und Projektmanager mit Expertise in Print- und Digitalmedien. Erfahrung in WordPress-Entwicklung, angepassten Plugins und responsiven Themes. Umfassendes Projektmanagement mit vjoon K4, von der Konzeption bis zur Umsetzung. Expertise in Layouterstellung, Bildbearbeitung und Druckvorstufe. Entwicklung von Automatisierungskonzepten mit Enfocus Switch zur Prozessoptimierung. Bedienung digitaler Druckgeräte (Canon C750). Erstellung von JavaScript-Skripten für InDesign zur Verbesserung der Mikrotypografie. Einrichtung und Pflege interner Wissensdatenbanken zur Förderung der Teamzusammenarbeit.",
+      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei.\n\nBesonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben, das war mein Einstieg in die Programmierung.",
       "experienceTags": [
         "Layout & Design",
         "Digitaldruck",

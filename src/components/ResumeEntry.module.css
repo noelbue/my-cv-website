@@ -1,162 +1,164 @@
 .resumeSection {
-    font-family: 'SF Pro Display', sans-serif;
-    letter-spacing: 0.07em;
+  font-family: "SF Pro Display", sans-serif;
+  letter-spacing: 0.07em;
 }
 
 .sectionTitle {
-    font-size: 30px;
-    margin-bottom: 1rem;
-    color: var(--text-color);
+  font-size: 30px;
+  margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
 .resumeItem {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-    background-color: var(--box-background);
-    border-radius: 30px;
-    padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  background-color: var(--box-background);
+  border-radius: 30px;
+  padding: 1.5rem;
 }
 
 .resumeHeader {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .logo {
-    width: 75px;
-    height: 75px;
-    object-fit: contain;
-    margin-bottom: 1rem;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  margin-bottom: 1rem;
 }
 
 .resumeHeaderInfo {
-    width: 100%;
+  width: 100%;
 }
 
 .resumeTitle {
-    font-size: 28px;
-    line-height: 1.2;
-    margin: 1rem 0 0.5rem;
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 1rem 0 -0.6rem;
 }
 
 .resumeDescription {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-top: 1rem;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 1rem;
 }
 
-.resumeInfoTags, .resumeTags {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -0.25rem;
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 7px;
+.resumeInfoTags,
+.resumeTags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.25rem;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 7px;
 }
 
-.resumeTag, .resumeInfoTag {
-    margin: 0.25rem;
+.resumeTag,
+.resumeInfoTag {
+  margin: 0.25rem;
 }
 
 .resumeTag {
-    background-color: var(--tag-background);
-    color: var(--tag-text-color);
-    padding: 0.4rem 0.8rem;
-    border-radius: 20px;
+  background-color: var(--tag-background);
+  color: var(--tag-text-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
 }
 
 .resumeInfoTag {
-    background-color: var(--infotag-background);
-    color: var(--infotag-text-color);
-    padding: 0.3rem 0.6rem;
-    border-radius: 4px;
+  background-color: var(--infotag-background);
+  color: var(--infotag-text-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
 }
 
 .logoLink {
-    display: block;
-    width: 100px;
-    height: 100px;
-    margin-right: 1rem;
-    transition: transform 0.2s ease-in-out;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  transition: transform 0.2s ease-in-out;
 }
 
 .logo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 20px;
-    transition: transform 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media (max-width: 767px) {
-    .logoLink {
-        width: 80px;
-        height: 80px;
-    }
+  .logoLink {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media (max-width: 480px) {
-    .logo {
-        width: 80px;
-        height: 80px;
-        margin-right: 1.5rem;
-        margin-bottom: 0;
-    }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 480px) {
-    .resumeItem {
-        padding: 2rem;
-    }
+  .resumeItem {
+    padding: 2rem;
+  }
 
-    .resumeHeader {
-        flex-direction: row;
-    }
+  .resumeHeader {
+    flex-direction: row;
+  }
 
-    .logo {
-        width: 75px;
-        height: 75px;
-        margin-right: 1.5rem;
-        margin-bottom: 0;
-    }
+  .logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+  }
 
-    .resumeTitle {
-        font-size: 32px;
-    }
+  .resumeTitle {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 768px) {
-    .resumeItem {
-        padding: 1.5rem;
-    }
+  .resumeItem {
+    padding: 1.5rem;
+  }
 
-    .resumeTitle {
-        font-size: 35px;
-    }
+  .resumeTitle {
+    font-size: 35px;
+  }
 
-    .resumeDescription {
-        font-size: 18px;
-    }
+  .resumeDescription {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1024px) {
-    .resumeItem {
-        padding: 1.5rem;
-    }
+  .resumeItem {
+    padding: 1.5rem;
+  }
 
-    .logo {
-        width: 75px;
-        height: 75px;
-        margin-right: 2rem;
-    }
+  .logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 2rem;
+  }
 
-    .resumeTitle {
-        font-size: 38px;
-    }
+  .resumeTitle {
+    font-size: 38px;
+  }
 }

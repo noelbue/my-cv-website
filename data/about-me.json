@@ -2,33 +2,35 @@
   "en": {
     "profilePicture": "/images/profile-pic.png",
     "profileTitle": "Hey, I'm Noel Bürgler",
-    "profileDescription": "… and I'm a 24-year-old Application & Frontend Engineer specializing in publishing solutions. Currently pursuing a B.Sc. in Computer Science, I combine technical expertise with social skills. Known for my adaptability, resilience, and quick learning ability, I excel in problem-solving and critical thinking. My communication skills and flexibility make me an asset in diverse team environments. With a constant thirst for knowledge, I'm always eager to take on new challenges and innovate in the field of software development.",
+    "profileDescription": "Hi, I'm Noel, a 25-year-old IT enthusiast with a passion for publishing solutions and web development. For almost 10 years, I've been working in the print and digital industry, helping companies optimize their workflows. \n\nCurrently, I'm working as an Application Engineer at Topix AG, where I get to support clients like Red Bull Media House with their publishing systems. On the side, I'm also a Frontend Developer for various clients.\n\nBesides work, I'm studying Computer Science and constantly learning new technologies. I love solving tricky problems while always keeping people at the center, because in the end, it's about making solutions work for everyone.",
     "profileTags": [
-      "Adaptability",
+      "Publishing Solutions",
+      "Web Development",
       "Problem-Solving",
-      "Critical Thinking",
-      "Communication",
+      "Project Management",
+      "API Integration",
       "Quick Learner",
-      "Resilience",
-      "German (C2)",
+      "Team Player",
+      "German (Native)",
       "English (C1)",
-      "French (B1)"
+      "French (A2)"
     ]
   },
   "de": {
     "profilePicture": "/images/profile-pic.png",
-    "profileTitle": "Hallo, ich bin Noel Bürgler",
-    "profileDescription": "… und bin ein 24-jähriger Application & Frontend Engineer, spezialisiert auf Publishing-Lösungen. Aktuell studiere ich Informatik und kombiniere technisches Wissen mit sozialen Fähigkeiten. Bekannt für Anpassungsfähigkeit, Belastbarkeit und schnelles Lernen, bringe ich Problemlösungsfähigkeiten und kritisches Denken mit. Meine kommunikativen Fähigkeiten und Flexibilität machen mich zu einer Bereicherung in Teamumgebungen, und mein Wissensdurst treibt mich an, neue Herausforderungen in der Entwicklung anzunehmen.",
+    "profileTitle": "Hi, ich bin Noel Bürgler",
+    "profileDescription": "Hi, ich bin Noel, ein 25-jähriger IT-Enthusiast mit einer Leidenschaft für Publishing-Lösungen und Web-Entwicklung. Seit fast 10 Jahren arbeite ich in der Print- und Digital-Branche und helfe Unternehmen dabei, ihre Workflows zu optimieren.\n\nAktuell bin ich als Application Engineer bei Topix AG tätig, wo ich Kunden wie Red Bull Media House bei ihren Publishing-Systemen unterstützen darf. Nebenbei arbeite ich als Frontend Developer für verschiedene Kunden.\n\nNeben der Arbeit studiere ich Informatik und lerne ständig neue Technologien dazu. Ich liebe es, knifflige Probleme zu lösen und dabei immer den Menschen im Fokus zu behalten, denn am Ende geht es darum, dass die Lösung für alle funktioniert.",
     "profileTags": [
-      "Anpassungsfähigkeit",
+      "Publishing-Lösungen",
+      "Web-Entwicklung",
       "Problemlösung",
-      "Kritisches Denken",
-      "Kommunikation",
+      "Projektmanagement",
+      "API-Integration",
       "Schneller Lerner",
-      "Belastbarkeit",
-      "Deutsch (C2)",
+      "Teamplayer",
+      "Deutsch (Muttersprache)",
       "Englisch (C1)",
-      "Französisch (B1)"
+      "Französisch (A2)"
     ]
   }
 }

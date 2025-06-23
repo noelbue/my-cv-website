@@ -5,17 +5,18 @@
       "educationLogoUrl": "https://www.iu.de/en/",
       "educationInfoTags": ["April 2023 - April 2027", "Bad Honnef, Germany"],
       "educationTitle": "B.Sc. Computer Science",
-      "educationDescription": "Comprehensive studies in computer science with a focus on software development, algorithms and data structures. Practice-oriented projects in Java and web development. Specialization in databases, IT security and agile project management. Development of skills in scientific work and ethical decision-making in IT.",
+      "educationDescription": "Distance learning in Computer Science parallel to full-time work, quite a challenge, but that's exactly what makes it exciting! Currently working through modules like Object-oriented Programming with Java, Database Modeling, Web Application Development and Requirements Engineering.\n\nParticularly practical: Projects like \"Project: Build a Data Mart in SQL\", \"Project: Java and Web Development\" or \"Project: Software Engineering\" can be directly linked with my daily work at Topix. Theoretical topics like Computer Networks, IT Service Management and Software Quality Assurance perfectly complement my practical experience.\n\nThe studies give me the scientific foundations for what I do daily, and at the same time bring me into new areas like Cryptography, Agile Project Management and Data Protection.",
       "educationTags": [
         "Java",
         "Python",
         "Web Development",
-        "Algorithms",
-        "Data Structures",
-        "Database Modeling",
+        "Database Systems",
         "Software Engineering",
-        "Networks",
-        "Requirements Engineering"
+        "Computer Networks",
+        "IT Service Management",
+        "Requirements Engineering",
+        "Cryptography",
+        "Agile Project Management"
       ]
     },
     {
@@ -23,12 +24,14 @@
       "educationLogoUrl": "https://www.gbssg.ch/",
       "educationInfoTags": ["July 2015 - July 2019", "St. Gallen, Switzerland"],
       "educationTitle": "Federal Certificate of Proficiency as a Polygraph",
-      "educationDescription": "Comprehensive training in media production with a focus on printing. Acquisition of specialist knowledge in layout, typography and digital image processing. Practical experience with professional pre-press software and workflow management systems. Development of skills in customer consulting and project coordination.",
+      "educationDescription": "This is where it all started! Four years of intensive training in media production, from classic layout to typography to digital image processing. Even then I was allowed to work with professional prepress software and gain first experience in customer consulting.\n\nThe training was the perfect entry into the publishing world and showed me how important it is to combine technical know-how with creativity. Many of the fundamentals I learned back then still help me today when managing complex publishing workflows.",
       "educationTags": [
         "Layout & Design",
-        "Digital Printing",
-        "Picture Editing",
-        "Typography"
+        "Typography",
+        "Digital Image Processing",
+        "Prepress",
+        "Media Production",
+        "Customer Consulting"
       ]
     }
   ],
@@ -41,17 +44,18 @@
         "Bad Honnef, Deutschland"
       ],
       "educationTitle": "B.Sc. Computer Science",
-      "educationDescription": "Umfassendes Studium der Informatik mit den Schwerpunkten Softwareentwicklung, Algorithmen und Datenstrukturen. Praxisorientierte Projekte in Java und Webentwicklung. Spezialisierung auf Datenbanken, IT-Sicherheit und agiles Projektmanagement. Entwicklung von Fähigkeiten zum wissenschaftlichen Arbeiten und zur ethischen Entscheidungsfindung in der IT.",
+      "educationDescription": "Fernstudium Informatik parallel zur Vollzeittätigkeit, eine ziemliche Herausforderung, aber genau das macht es spannend! Aktuell arbeite ich mich durch Module wie Object-oriented Programming with Java, Database Modeling, Web Application Development und Requirements Engineering.\n\nBesonders praktisch: Projekte wie \"Project: Build a Data Mart in SQL\", \"Project: Java and Web Development\" oder \"Project: Software Engineering\" kann ich direkt mit meiner täglichen Arbeit bei Topix verknüpfen. Theoretische Themen wie Computer Networks, IT Service Management und Software Quality Assurance ergänzen perfekt meine praktischen Erfahrungen.\n\nDas Studium gibt mir die wissenschaftlichen Grundlagen für das, was ich täglich mache, und bringt mich gleichzeitig in neue Bereiche wie Cryptography, Agile Project Management und Data Protection rein.",
       "educationTags": [
         "Java",
         "Python",
         "Web-Entwicklung",
-        "Algorithmen",
-        "Datenstrukturen",
-        "Datenbankmodellierung",
+        "Datenbanksysteme",
         "Softwaretechnik",
         "Netzwerke",
-        "Requirements Engineering"
+        "IT Service Management",
+        "Requirements Engineering",
+        "Kryptographie",
+        "Agiles Projektmanagement"
       ]
     },
     {
@@ -59,12 +63,14 @@
       "educationLogoUrl": "https://www.gbssg.ch/",
       "educationInfoTags": ["Juli 2015 - Juli 2019", "St. Gallen, Schweiz"],
       "educationTitle": "Eidgenössisches Fähigkeitszeugnis als Polygraf",
-      "educationDescription": "Umfassende Ausbildung in der Medienproduktion mit dem Schwerpunkt Druck. Erwerb von Fachwissen in Layout, Typografie und digitaler Bildbearbeitung. Praktische Erfahrung mit professioneller Druckvorstufensoftware und Workflow-Management-Systemen. Entwicklung von Kompetenzen in der Kundenberatung und Projektkoordination.",
+      "educationDescription": "Hier hat alles angefangen! Vier Jahre intensive Ausbildung in der Medienproduktion, von klassischem Layout über Typografie bis zur digitalen Bildbearbeitung. Schon damals durfte ich mit professioneller Druckvorstufen-Software arbeiten und erste Erfahrungen in der Kundenberatung sammeln.\n\nDie Ausbildung war der perfekte Einstieg in die Publishing-Welt und hat mir gezeigt, wie wichtig es ist, technisches Know-how mit Kreativität zu verbinden. Viele der Grundlagen, die ich damals gelernt habe, helfen mir heute noch bei der Betreuung komplexer Publishing-Workflows.",
       "educationTags": [
         "Layout & Gestaltung",
-        "Digitaldruck",
-        "Bildbearbeitung",
-        "Typografie"
+        "Typografie",
+        "Digitale Bildbearbeitung",
+        "Druckvorstufe",
+        "Medienproduktion",
+        "Kundenberatung"
       ]
     }
   ]
