@@ -4,21 +4,25 @@
       "experienceLogo": "/images/brueggli-admedia.png",
       "experienceLogoUrl": "https://www.brueggli-admedia.ch/",
       "experienceInfoTags": [
-        "From October 2025",
+        "October 2025 - present",
         "Hybrid",
         "Full Time",
         "8590 Romanshorn, Switzerland"
       ],
       "experienceTitle": "Solutions Architect & Deputy IT Manager",
-      "experienceDescription": "Here begins my next adventure! As Solutions Architect, I get to develop intelligent communication solutions and dive even deeper into the IT world. Additionally, I'll take on responsibility for the entire IT infrastructure as deputy IT manager.\n\nI'm particularly excited about working with new tools like XMPie and Heidelberg Cockpit and expanding my experience in AI integration.",
+      "experienceDescription": "Here begins my next adventure! As Solutions Architect, I develop intelligent communication solutions using modern web technologies like React, Express.js, and TypeScript, and dive even deeper into the IT world. I build complex Enfocus Switch workflows with custom scripts to automate processes and optimize workflows.\n\nAdditionally, I take responsibility for the entire IT infrastructure as deputy IT manager, including device onboarding via Azure AD and Intune. I'm particularly excited about working with new tools like XMPie and Heidelberg Cockpit and expanding my experience in AI integration.",
       "experienceTags": [
         "Solution Architecture",
         "IT Management",
         "Device Management",
+        "Azure AD",
+        "Microsoft Intune",
         "Network Administration",
         "System Patching",
         "Workflow Automation",
         "Enfocus Switch",
+        "Switch Scripting",
+        "TypeScript",
         "XMPie",
         "Heidelberg Cockpit",
         "Frontify",
@@ -28,7 +32,11 @@
         "Atlassian Administration",
         "AI Integration",
         "Digital Communication",
-        "Scripting",
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "MSSQL",
+        "Active Directory",
         "ITIL"
       ]
     },
@@ -42,7 +50,7 @@
         "9014 St.Gallen, Switzerland"
       ],
       "experienceTitle": "Application Engineer/Manager & Project Manager",
-      "experienceDescription": "Here I take care of the technical support for our clients and their publishing systems, and no day is like the other! This means specifically: installing, configuring and keeping vjoon K4, Enfocus Switch and surrounding systems like SQL servers, Tomcats and InDesign servers running.\n\nI'm particularly proud of the collaboration with Red Bull Media House, I get to manage their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it! On the side, I'm also the go-to guy for IT support in all kinds of areas.\n\nBesides the technical work, I also train clients, write documentation and develop interfaces to various APIs. Sometimes I feel like a translator between technology and people, and that's exactly what I enjoy!",
+      "experienceDescription": "Here I took care of technical support for our clients and their publishing systems, with no two days alike! This meant specifically: installing, configuring, and maintaining vjoon K4, Enfocus Switch, and surrounding systems like SQL servers, Tomcats, and InDesign servers.\n\nI'm particularly proud of the collaboration with Red Bull Media House, where I managed their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it! On the side, I was also the go-to guy for IT support in all kinds of areas.\n\nBesides technical work, I also trained clients, wrote documentation, and developed interfaces to various APIs. Sometimes I felt like a translator between technology and people, and that's exactly what I enjoyed!",
       "experienceTags": [
         "Project Management",
         "Stakeholder Management",
@@ -65,11 +73,13 @@
         "HTML",
         "CSS",
         "JavaScript",
+        "TypeScript",
         "PHP",
         "XSLT",
         "Express.js",
         "Axios",
         "Node.js",
+        "React.js",
         "Regex"
       ]
     },
@@ -102,6 +112,7 @@
         "Axios",
         "Vue.js",
         "node.js",
+        "Express.js",
         "Gatsby.js",
         "Vite",
         "Shadcn",
@@ -124,7 +135,7 @@
         "9403 Goldach, Switzerland"
       ],
       "experienceTitle": "Media Designer (Print/Web)",
-      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included.\n\nParticularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign, that was my entry into programming.",
+      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included.\n\nParticularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign – that was my entry into programming.",
       "experienceTags": [
         "Layout & Design",
         "Digital Printing",
@@ -143,21 +154,25 @@
       "experienceLogo": "/images/brueggli-admedia.png",
       "experienceLogoUrl": "https://www.brueggli-admedia.ch/",
       "experienceInfoTags": [
-        "Ab Oktober 2025",
+        "Oktober 2025 - heute",
         "Hybrid",
         "Vollzeit",
         "8590 Romanshorn, Schweiz"
       ],
       "experienceTitle": "Solutions Architect & Stellv. IT-Leiter",
-      "experienceDescription": "Hier beginnt mein nächstes Abenteuer! Als Solutions Architect darf ich intelligente Kommunikationslösungen entwickeln und dabei noch tiefer in die IT-Welt eintauchen. Zusätzlich übernehme ich als stellvertretender IT-Leiter Verantwortung für die gesamte IT-Infrastruktur.\n\nIch freue mich besonders darauf, mit neuen Tools wie XMPie und Heidelberg Cockpit zu arbeiten und meine Erfahrung in der KI-Integration zu erweitern.",
+      "experienceDescription": "Hier beginnt mein nächstes Abenteuer! Als Solutions Architect entwickle ich intelligente Kommunikationslösungen mit modernen Web-Technologien wie React, Express.js und TypeScript und tauche dabei noch tiefer in die IT-Welt ein. Ich baue komplexe Enfocus-Switch-Workflows mit Custom Scripts auf, um Prozesse zu automatisieren und Workflows zu optimieren.\n\nZusätzlich übernehme ich als stellvertretender IT-Leiter Verantwortung für die gesamte IT-Infrastruktur, inklusive Device-Onboarding via Azure AD und Intune. Ich freue mich besonders darauf, mit neuen Tools wie XMPie und Heidelberg Cockpit zu arbeiten und meine Erfahrung in der KI-Integration zu erweitern.",
       "experienceTags": [
         "Solution Architecture",
         "IT-Management",
         "Device Management",
+        "Azure AD",
+        "Microsoft Intune",
         "Netzwerkadministration",
         "System-Patching",
         "Workflow-Automatisierung",
         "Enfocus Switch",
+        "Switch-Scripting",
+        "TypeScript",
         "XMPie",
         "Heidelberg Cockpit",
         "Frontify",
@@ -167,7 +182,11 @@
         "Atlassian-Administration",
         "KI-Integration",
         "Digitale Kommunikation",
-        "Scripting",
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "MSSQL",
+        "Active Directory",
         "ITIL"
       ]
     },
@@ -181,7 +200,7 @@
         "9014 St.Gallen, Schweiz"
       ],
       "experienceTitle": "Application Engineer/Manager & Projektmanager",
-      "experienceDescription": "Hier kümmere ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei ist kein Tag wie der andere! Das heisst konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten.\n\nBesonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da darf ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden! Nebenbei bin ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen.\n\nNeben der technischen Arbeit schule ich Kunden, schreibe Dokumentationen und entwickle Schnittstellen zu verschiedenen APIs. Manchmal fühle ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das macht mir Spass!",
+      "experienceDescription": "Hier kümmerte ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei war kein Tag wie der andere! Das hiess konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten.\n\nBesonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da durfte ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden! Nebenbei war ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen.\n\nNeben der technischen Arbeit schulte ich Kunden, schrieb Dokumentationen und entwickelte Schnittstellen zu verschiedenen APIs. Manchmal fühlte ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das machte mir Spass!",
       "experienceTags": [
         "Projektmanagement",
         "Stakeholder Management",
@@ -204,10 +223,12 @@
         "HTML",
         "CSS",
         "JavaScript",
+        "TypeScript",
         "PHP",
         "XSLT",
         "Express.js",
         "Node.js",
+        "React.js",
         "Regex"
       ]
     },
@@ -240,6 +261,7 @@
         "Axios",
         "Vue.js",
         "node.js",
+        "Express.js",
         "Gatsby.js",
         "Vite",
         "Shadcn",
@@ -262,7 +284,7 @@
         "9403 Goldach, Schweiz"
       ],
       "experienceTitle": "Polygraf (Print/Web)",
-      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei.\n\nBesonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben, das war mein Einstieg in die Programmierung.",
+      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei.\n\nBesonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben – das war mein Einstieg in die Programmierung.",
       "experienceTags": [
         "Layout & Design",
         "Digitaldruck",
