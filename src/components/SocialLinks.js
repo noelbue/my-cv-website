@@ -15,7 +15,7 @@ const iconMap = {
   phone: faPhone,
 };
 
-const SocialLinks = ({ links, onPdfClick }) => {
+const SocialLinks = ({ links }) => {
   return (
     <div className={styles.socialLinks}>
       {links.map((link, index) => (
@@ -30,14 +30,14 @@ const SocialLinks = ({ links, onPdfClick }) => {
           <FontAwesomeIcon icon={iconMap[link.icon]} />
         </a>
       ))}
-      <button
-        style={{ visibility: "hidden" }}
-        onClick={onPdfClick}
+      <a
+        href="/CV_Noel-Buergler.pdf"
+        download="Noel_Buergler_CV.pdf"
         className={styles.socialLink}
-        aria-label="Generate PDF"
+        aria-label="Download CV as PDF"
       >
         <FontAwesomeIcon icon={faFilePdf} />
-      </button>
+      </a>
     </div>
   );
 };

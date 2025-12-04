@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { graphql } from "gatsby";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import Layout from "../components/Layout";
@@ -11,50 +11,15 @@ import * as styles from "./index.module.css";
 
 const IndexPage = ({ data }) => {
   const { t } = useTranslation();
-  const contentRef = useRef(null);
-
-  const generatePdf = async () => {
-    if (typeof window === "undefined") return;
-    if (!contentRef.current) return;
-
-    const html2pdf = (await import("html2pdf.js")).default;
-
-    const content = contentRef.current.cloneNode(true);
-    content.classList.add("pdf-mode");
-    document.body.appendChild(content);
-
-    const opt = {
-      margin: 10,
-      filename: "noel_buergler_cv.pdf",
-      image: { type: "pdf", quality: 0.98 },
-      html2canvas: {
-        scale: 2,
-        useCORS: true,
-        logging: true,
-        letterRendering: true,
-      },
-      jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-    };
-
-    html2pdf()
-      .set(opt)
-      .from(content)
-      .save()
-      .then(() => {
-        document.body.removeChild(content);
-      })
-      .catch((err) => console.error("PDF generation failed", err));
-  };
 
   return (
     <Layout>
-      <div className={styles.content} ref={contentRef}>
+      <div className={styles.content}>
         <section className={styles.column}>
           {data.customAboutMeJson && <AboutMe data={data.customAboutMeJson} />}
           <div className={styles.bottomRow}>
             <SocialLinks
               links={data.allSocialLinksJson.edges.map((edge) => edge.node)}
-              onPdfClick={generatePdf}
             />
             <div className={styles.togglesWrapper}>
               <LanguageSwitcher />

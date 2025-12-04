@@ -1,6 +1,6 @@
 exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions;
-    const typeDefs = `
+  const { createTypes } = actions;
+  const typeDefs = `
       type CustomAboutMeJson implements Node @dontInfer {
         en: AboutMeContent
         de: AboutMeContent
@@ -36,63 +36,50 @@ exports.createSchemaCustomization = ({ actions }) => {
         educationTags: [String]
       }
     `;
-    createTypes(typeDefs);
+  createTypes(typeDefs);
 };
 
 exports.onCreateNode = async ({ node, actions, loadNodeContent }) => {
-    const { createNode } = actions;
+  const { createNode } = actions;
 
-    if (
-        node.internal.type === 'File' &&
-        node.sourceInstanceName === 'data' &&
-        node.extension === 'json'
-    ) {
-        const nodeName = node.name;
-        const content = await loadNodeContent(node);
+  if (
+    node.internal.type === "File" &&
+    node.sourceInstanceName === "data" &&
+    node.extension === "json"
+  ) {
+    const nodeName = node.name;
+    const content = await loadNodeContent(node);
 
-        let parsedContent;
-        try {
-            parsedContent = JSON.parse(content);
-        } catch (error) {
-            console.error(`Error parsing JSON from file ${node.relativePath}: ${error}`);
-            return;
-        }
-
-        let typeName;
-        if (nodeName === 'about-me') {
-            typeName = 'CustomAboutMeJson';
-        } else if (nodeName === 'experience') {
-            typeName = 'CustomExperienceJson';
-        } else if (nodeName === 'education') {
-            typeName = 'CustomEducationJson';
-        } else {
-            return;
-        }
-
-        createNode({
-            ...parsedContent,
-            id: nodeName,
-            parent: node.id,
-            children: [],
-            internal: {
-                type: typeName,
-                contentDigest: node.internal.contentDigest,
-            },
-        });
+    let parsedContent;
+    try {
+      parsedContent = JSON.parse(content);
+    } catch (error) {
+      console.error(
+        `Error parsing JSON from file ${node.relativePath}: ${error}`
+      );
+      return;
     }
-};
 
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-    if (stage === "build-html" || stage === "develop-html") {
-        actions.setWebpackConfig({
-            module: {
-                rules: [
-                    {
-                        test: /html2pdf\.js/,
-                        use: loaders.null(),
-                    },
-                ],
-            },
-        });
+    let typeName;
+    if (nodeName === "about-me") {
+      typeName = "CustomAboutMeJson";
+    } else if (nodeName === "experience") {
+      typeName = "CustomExperienceJson";
+    } else if (nodeName === "education") {
+      typeName = "CustomEducationJson";
+    } else {
+      return;
     }
+
+    createNode({
+      ...parsedContent,
+      id: nodeName,
+      parent: node.id,
+      children: [],
+      internal: {
+        type: typeName,
+        contentDigest: node.internal.contentDigest,
+      },
+    });
+  }
 };
