@@ -10,35 +10,32 @@
         "8590 Romanshorn, Switzerland"
       ],
       "experienceTitle": "Solutions Architect & Deputy IT Manager",
-      "experienceDescription": "As Solutions Architect, I develop intelligent communication solutions using modern web technologies like React, Express.js, and TypeScript, and dive even deeper into the IT world. I build complex Enfocus Switch workflows with custom scripts to automate processes and optimize workflows.\n\nAdditionally, I take responsibility for the entire IT infrastructure as deputy IT manager, including device onboarding via Azure AD and Intune. I'm particularly excited about working with new tools like XMPie and Heidelberg Cockpit and expanding my experience in AI integration.",
+      "experienceDescription": "As Solutions Architect and Deputy IT Manager, I support IT infrastructure management and coordinate digital solutions. I handle device onboarding via Azure AD and Intune, provide in-house IT support, and build complex Enfocus Switch workflows with custom scripts to automate processes. I'm particularly proud of leading the PostCard Creator system modernization for Swiss Post – coordinating the migration from legacy VB.NET/ASP to a modern Node.js/TypeScript microservices architecture with Docker. Additionally, I conduct requirements engineering for clients using our AI platform and helped establish it from the ground up, including the FAQ Help Center. I also drive internal process improvements, like migrating our printer maintenance system to Odoo. I'm responsible for Atlassian administration and set up various Jira Service Management workflows. On the side, I maintain and customize XMPie web-to-print shops for our clients.",
       "experienceTags": [
         "Solution Architecture",
         "IT Management",
-        "Device Management",
         "Requirements Engineering",
         "Azure AD",
         "Microsoft Intune",
-        "Network Administration",
-        "System Patching",
+        "IT Support",
         "Workflow Automation",
         "Enfocus Switch",
-        "Switch Scripting",
         "TypeScript",
         "XMPie",
-        "Heidelberg Cockpit",
-        "Frontify",
-        "Database Management",
-        "API Integration",
-        "Process Optimization",
-        "Atlassian Administration",
+        "Open WebUI",
         "AI Integration",
-        "Digital Communication",
+        "Odoo",
+        "Atlassian Administration",
+        "Jira",
+        "Confluence",
+        "Bitbucket",
+        "Jira Service Management",
+        "Process Optimization",
+        "PostgreSQL",
         "React.js",
-        "Express.js",
         "Node.js",
-        "MSSQL",
-        "Active Directory",
-        "ITIL"
+        "Docker",
+        "Active Directory"
       ]
     },
     {
@@ -51,7 +48,7 @@
         "9014 St.Gallen, Switzerland"
       ],
       "experienceTitle": "Application Engineer/Manager & Project Manager",
-      "experienceDescription": "Here I took care of technical support for our clients and their publishing systems, with no two days alike! This meant specifically: installing, configuring, and maintaining vjoon K4, Enfocus Switch, and surrounding systems like SQL servers, Tomcats, and InDesign servers.\n\nI'm particularly proud of the collaboration with Red Bull Media House, where I managed their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it! On the side, I was also the go-to guy for IT support in all kinds of areas.\n\nBesides technical work, I also trained clients, wrote documentation, and developed interfaces to various APIs. Sometimes I felt like a translator between technology and people, and that's exactly what I enjoyed!",
+      "experienceDescription": "Here I took care of technical support for our clients and their publishing systems, with no two days alike! This meant specifically: installing, configuring, and maintaining vjoon K4, Enfocus Switch, and surrounding systems like SQL servers, Tomcats, and InDesign servers. I'm particularly proud of the collaboration with Red Bull Media House, where I managed their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it! On the side, I was also the go-to guy for IT support in all kinds of areas. Besides technical work, I also trained clients, wrote documentation, and developed interfaces to various APIs. Sometimes I felt like a translator between technology and people, and that's exactly what I enjoyed!",
       "experienceTags": [
         "Project Management",
         "Stakeholder Management",
@@ -94,7 +91,7 @@
         "9320 Arbon, Switzerland"
       ],
       "experienceTitle": "Frontend Developer",
-      "experienceDescription": "On the side, I develop websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications.\n\nI particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
+      "experienceDescription": "On the side, I develop websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications. I particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
       "experienceTags": [
         "Website Design & Development",
         "Custom Themes & Plugins",
@@ -136,7 +133,7 @@
         "9403 Goldach, Switzerland"
       ],
       "experienceTitle": "Media Designer (Print/Web)",
-      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included.\n\nParticularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign – that was my entry into programming.",
+      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included. Particularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign – that was my entry into programming.",
       "experienceTags": [
         "Layout & Design",
         "Digital Printing",
@@ -161,35 +158,32 @@
         "8590 Romanshorn, Schweiz"
       ],
       "experienceTitle": "Solutions Architect & Stellv. IT-Leiter",
-      "experienceDescription": "Als Solutions Architect entwickle ich intelligente Kommunikationslösungen mit modernen Web-Technologien wie React, Express.js und TypeScript und tauche dabei noch tiefer in die IT-Welt ein. Ich baue komplexe Enfocus-Switch-Workflows mit Custom Scripts auf, um Prozesse zu automatisieren und Workflows zu optimieren.\n\nZusätzlich übernehme ich als stellvertretender IT-Leiter Verantwortung für die gesamte IT-Infrastruktur, inklusive Device-Onboarding via Azure AD und Intune. Ich freue mich besonders darauf, mit neuen Tools wie XMPie und Heidelberg Cockpit zu arbeiten und meine Erfahrung in der KI-Integration zu erweitern.",
+      "experienceDescription": "Als Solutions Architect und stellvertretender IT-Leiter unterstütze ich das IT-Infrastruktur-Management und koordiniere digitale Lösungen. Ich kümmere mich um Device-Onboarding via Azure AD und Intune, biete IT-Support im Haus und baue komplexe Enfocus-Switch-Workflows mit Custom Scripts auf, um Prozesse zu automatisieren. Besonders stolz bin ich auf die Leitung der PostCard-Creator-Systemmodernisierung für die Schweizer Post – die Koordination der Migration von Legacy VB.NET/ASP zu einer modernen Node.js/TypeScript-Microservices-Architektur mit Docker. Zusätzlich mache ich Requirements Engineering für Kunden unserer AI-Plattform und habe sie von Grund auf mitaufgebaut, inklusive FAQ Help Center. Ausserdem treibe ich interne Prozessverbesserungen voran, wie die Migration unseres Drucker-Wartungssystems zu Odoo. Ich bin verantwortlich für die Atlassian-Administration und habe verschiedene Jira-Service-Management-Workflows aufgesetzt. Nebenbei betreue und passe ich XMPie-Web-to-Print-Shops für unsere Kunden an.",
       "experienceTags": [
         "Solution Architecture",
         "IT-Management",
-        "Device Management",
         "Requirements Engineering",
         "Azure AD",
         "Microsoft Intune",
-        "Netzwerkadministration",
-        "System-Patching",
+        "IT-Support",
         "Workflow-Automatisierung",
         "Enfocus Switch",
-        "Switch-Scripting",
         "TypeScript",
         "XMPie",
-        "Heidelberg Cockpit",
-        "Frontify",
-        "Datenbankmanagement",
-        "API-Integration",
-        "Prozessoptimierung",
-        "Atlassian-Administration",
+        "Open WebUI",
         "KI-Integration",
-        "Digitale Kommunikation",
+        "Odoo",
+        "Atlassian-Administration",
+        "Jira",
+        "Confluence",
+        "Bitbucket",
+        "Jira Service Management",
+        "Prozessoptimierung",
+        "PostgreSQL",
         "React.js",
-        "Express.js",
         "Node.js",
-        "MSSQL",
-        "Active Directory",
-        "ITIL"
+        "Docker",
+        "Active Directory"
       ]
     },
     {
@@ -202,7 +196,7 @@
         "9014 St.Gallen, Schweiz"
       ],
       "experienceTitle": "Application Engineer/Manager & Projektmanager",
-      "experienceDescription": "Hier kümmerte ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei war kein Tag wie der andere! Das hiess konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten.\n\nBesonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da durfte ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden! Nebenbei war ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen.\n\nNeben der technischen Arbeit schulte ich Kunden, schrieb Dokumentationen und entwickelte Schnittstellen zu verschiedenen APIs. Manchmal fühlte ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das machte mir Spass!",
+      "experienceDescription": "Hier kümmerte ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei war kein Tag wie der andere! Das hiess konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten. Besonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da durfte ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden! Nebenbei war ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen. Neben der technischen Arbeit schulte ich Kunden, schrieb Dokumentationen und entwickelte Schnittstellen zu verschiedenen APIs. Manchmal fühlte ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das machte mir Spass!",
       "experienceTags": [
         "Projektmanagement",
         "Stakeholder Management",
@@ -244,7 +238,7 @@
         "9320 Arbon, Schweiz"
       ],
       "experienceTitle": "Frontend Developer",
-      "experienceDescription": "Nebenbei entwickle ich Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen.\n\nMir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
+      "experienceDescription": "Nebenbei entwickle ich Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen. Mir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
       "experienceTags": [
         "Website Design & Development",
         "Custom Themes & Plugins",
@@ -286,7 +280,7 @@
         "9403 Goldach, Schweiz"
       ],
       "experienceTitle": "Polygraf (Print/Web)",
-      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei.\n\nBesonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben – das war mein Einstieg in die Programmierung.",
+      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei. Besonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben – das war mein Einstieg in die Programmierung.",
       "experienceTags": [
         "Layout & Design",
         "Digitaldruck",
