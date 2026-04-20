@@ -5,18 +5,22 @@
       "educationLogoUrl": "https://www.iu.de/en/",
       "educationInfoTags": ["April 2023 - April 2027", "Bad Honnef, Germany"],
       "educationTitle": "B.Sc. Computer Science",
-      "educationDescription": "Distance learning in Computer Science parallel to full-time work, quite a challenge, but that's exactly what makes it exciting! Currently working through modules like Object-oriented Programming with Java, Database Modeling, Web Application Development and Requirements Engineering.\n\nParticularly practical: Projects like \"Project: Build a Data Mart in SQL\", \"Project: Java and Web Development\" or \"Project: Software Engineering\" can be directly linked with my daily work. Theoretical topics like Computer Networks, IT Service Management and Software Quality Assurance perfectly complement my practical experience.\n\nThe studies give me the scientific foundations for what I do daily, and at the same time bring me into new areas like Cryptography, Agile Project Management and Data Protection.",
+      "educationDescription": "Studying Computer Science as a distance learner alongside full-time work. I'm in the final stretch now, just Agile Project Management, IT Law and the bachelor thesis left. The program gave me solid foundations in Java, Python, databases, networking and software engineering.\n\nThe best part is how much overlaps with what I actually do at work. Building a Data Mart in SQL, writing a Software Engineering project report, doing requirements analysis, all of that mirrors real tasks from my job. Modules like Cryptography and Data Protection added depth in areas where I had practical experience but not the theoretical background.",
       "educationTags": [
         "Java",
         "Python",
+        "SQL",
         "Web Development",
         "Database Systems",
         "Software Engineering",
+        "Algorithms",
         "Computer Networks",
         "IT Service Management",
         "Requirements Engineering",
+        "Data Protection",
         "Cryptography",
-        "Agile Project Management"
+        "Agile Project Management",
+        "IT Law"
       ]
     },
     {
@@ -44,18 +48,22 @@
         "Bad Honnef, Deutschland"
       ],
       "educationTitle": "B.Sc. Computer Science",
-      "educationDescription": "Fernstudium Informatik parallel zur Vollzeittätigkeit, eine ziemliche Herausforderung, aber genau das macht es spannend! Aktuell arbeite ich mich durch Module wie Object-oriented Programming with Java, Database Modeling, Web Application Development und Requirements Engineering.\n\nBesonders praktisch: Projekte wie \"Project: Build a Data Mart in SQL\", \"Project: Java and Web Development\" oder \"Project: Software Engineering\" kann ich direkt mit meiner täglichen Arbeit verknüpfen. Theoretische Themen wie Computer Networks, IT Service Management und Software Quality Assurance ergänzen perfekt meine praktischen Erfahrungen.\n\nDas Studium gibt mir die wissenschaftlichen Grundlagen für das, was ich täglich mache, und bringt mich gleichzeitig in neue Bereiche wie Cryptography, Agile Project Management und Data Protection rein.",
+      "educationDescription": "Informatik-Fernstudium parallel zur Vollzeittätigkeit. Ich bin auf der Zielgeraden, nur noch Agile Project Management, IT-Recht und die Bachelorarbeit stehen an. Das Programm hat mir solide Grundlagen in Java, Python, Datenbanken, Netzwerke und Software Engineering vermittelt.\n\nDas Beste daran ist, wie viel sich mit meiner täglichen Arbeit überschneidet. Einen Data Mart in SQL aufbauen, einen Software-Engineering-Projektbericht schreiben, Anforderungsanalysen machen, all das spiegelt echte Aufgaben aus meinem Job wider. Module wie Kryptographie und Datenschutz haben mir in Bereichen Tiefe gegeben, wo ich praktische Erfahrung hatte, aber nicht den theoretischen Hintergrund.",
       "educationTags": [
         "Java",
         "Python",
+        "SQL",
         "Web-Entwicklung",
         "Datenbanksysteme",
         "Softwaretechnik",
+        "Algorithmen",
         "Netzwerke",
         "IT Service Management",
         "Requirements Engineering",
+        "Datenschutz",
         "Kryptographie",
-        "Agiles Projektmanagement"
+        "Agiles Projektmanagement",
+        "IT-Recht"
       ]
     },
     {
