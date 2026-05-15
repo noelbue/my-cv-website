@@ -10,7 +10,7 @@
         "8590 Romanshorn, Switzerland"
       ],
       "experienceTitle": "Solutions Architect & Deputy IT Manager",
-      "experienceDescription": "As Solutions Architect and Deputy IT Manager, I bridge the gap between technical leadership and hands-on development. I lead and actively co-develop the PostCard Creator system modernization for Swiss Post using AI-assisted agentic coding with Claude Code. The system is a Node.js/TypeScript microservices architecture (Prisma, Vitest, Docker), where I implement features end-to-end with Scrum, code reviews and pull requests in Bitbucket. I also conduct applied AI research for Fridai (fridai.swiss), the AI-powered app of our social enterprise, evaluating Swiss German speech recognition models (Whisper, WhisperX) with systematic WER/BLEU benchmarking against manually created ground truth data. I help build Fridai from an initial prototype into a full product, handling requirements engineering, AI model integration and data protection compliance under Swiss law (DSG) including DPA assessments and DPIA coordination. Beyond that, I manage IT infrastructure, build complex Enfocus Switch workflows with custom scripts, and drive internal process improvements.",
+      "experienceDescription": "As Solutions Architect and Deputy IT Manager, I bridge the gap between technical leadership and hands-on development.\n\nI lead and actively co-develop the PostCard Creator system modernization for Swiss Post using AI-assisted agentic coding with Claude Code. The system is a Node.js/TypeScript microservices architecture (Prisma, Vitest, Docker), where I implement features end-to-end with Scrum, code reviews and pull requests in Bitbucket.\n\nI also conduct applied AI research for Fridai (fridai.swiss), the AI-powered app of our social enterprise, evaluating Swiss German speech recognition models (Whisper, WhisperX) with systematic WER/BLEU benchmarking against manually created ground truth data. I help build Fridai from an initial prototype into a full product, handling requirements engineering, AI model integration and data protection compliance under Swiss law (DSG) including DPA assessments and DPIA coordination.\n\nBeyond that, I manage IT infrastructure, build complex Enfocus Switch workflows with custom scripts, and drive internal process improvements.",
       "experienceTags": [
         "Solution Architecture",
         "AI-Assisted Development",
@@ -49,7 +49,7 @@
         "9014 St.Gallen, Switzerland"
       ],
       "experienceTitle": "Application Engineer/Manager & Project Manager",
-      "experienceDescription": "Here I took care of technical support for our clients and their publishing systems, with no two days alike! This meant specifically: installing, configuring, and maintaining vjoon K4, Enfocus Switch, and surrounding systems like SQL servers, Tomcats, and InDesign servers. I'm particularly proud of the collaboration with Red Bull Media House, where I managed their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it! On the side, I was also the go-to guy for IT support in all kinds of areas. Besides technical work, I also trained clients, wrote documentation, and developed interfaces to various APIs. Sometimes I felt like a translator between technology and people, and that's exactly what I enjoyed!",
+      "experienceDescription": "Here I took care of technical support for our clients and their publishing systems, with no two days alike! This meant specifically: installing, configuring, and maintaining vjoon K4, Enfocus Switch, and surrounding systems like SQL servers, Tomcats, and InDesign servers.\n\nI'm particularly proud of the collaboration with Red Bull Media House, where I managed their complete K4 and Enfocus Switch environment. That's pretty cool when you think about how many magazines and content are produced through it!\n\nOn the side, I was also the go-to guy for IT support in all kinds of areas. Besides technical work, I also trained clients, wrote documentation, and developed interfaces to various APIs. Sometimes I felt like a translator between technology and people, and that's exactly what I enjoyed!",
       "experienceTags": [
         "Project Management",
         "Stakeholder Management",
@@ -92,7 +92,7 @@
         "9320 Arbon, Switzerland"
       ],
       "experienceTitle": "Frontend Developer",
-      "experienceDescription": "On the side, I develop websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications. I particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
+      "experienceDescription": "On the side, I develop websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications.\n\nI particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
       "experienceTags": [
         "Website Design & Development",
         "Custom Themes & Plugins",
@@ -134,7 +134,7 @@
         "9403 Goldach, Switzerland"
       ],
       "experienceTitle": "Media Designer (Print/Web)",
-      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included. Particularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign, and that was my entry into programming.",
+      "experienceDescription": "This is where it all started! After my apprenticeship as a Polygraf, I really got to dive into the publishing world. From classic layout and prepress to first web projects, everything was included.\n\nParticularly exciting was working with vjoon K4 for magazine productions and automating workflows with Enfocus Switch. I also started writing JavaScript scripts for InDesign, and that was my entry into programming.",
       "experienceTags": [
         "Layout & Design",
         "Digital Printing",
@@ -159,7 +159,7 @@
         "8590 Romanshorn, Schweiz"
       ],
       "experienceTitle": "Solutions Architect & Stellv. IT-Leiter",
-      "experienceDescription": "Als Solutions Architect und stellvertretender IT-Leiter verbinde ich technische Projektleitung mit aktiver Entwicklungsarbeit. Ich leite und entwickle die PostCard-Creator-Systemmodernisierung für die Schweizer Post aktiv mit, unterstützt durch KI-gestütztes Agentic Coding mit Claude Code. Das System ist als Node.js/TypeScript-Microservices-Architektur aufgebaut (Prisma, Vitest, Docker), wobei ich Features End-to-End umsetze mit Scrum, Code Reviews und Pull Requests in Bitbucket. Daneben betreibe ich angewandte KI-Forschung für Fridai (fridai.swiss), die KI-gestützte App unseres Sozialunternehmens, und evaluiere Schweizerdeutsch-Spracherkennungsmodelle (Whisper, WhisperX) mit systematischem WER/BLEU-Benchmarking gegen manuell erstellte Ground-Truth-Daten. Ich entwickle Fridai von einem ersten Prototypen zum fertigen Produkt mit und verantworte Requirements Engineering, KI-Modell-Integration sowie die datenschutzrechtliche Compliance nach DSG inklusive DPA-Prüfungen und DSFA-Koordination. Darüber hinaus manage ich die IT-Infrastruktur, baue komplexe Enfocus-Switch-Workflows mit Custom Scripts und treibe interne Prozessverbesserungen voran.",
+      "experienceDescription": "Als Solutions Architect und stellvertretender IT-Leiter verbinde ich technische Projektleitung mit aktiver Entwicklungsarbeit.\n\nIch leite und entwickle die PostCard-Creator-Systemmodernisierung für die Schweizer Post aktiv mit, unterstützt durch KI-gestütztes Agentic Coding mit Claude Code. Das System ist als Node.js/TypeScript-Microservices-Architektur aufgebaut (Prisma, Vitest, Docker), wobei ich Features End-to-End umsetze mit Scrum, Code Reviews und Pull Requests in Bitbucket.\n\nDaneben betreibe ich angewandte KI-Forschung für Fridai (fridai.swiss), die KI-gestützte App unseres Sozialunternehmens, und evaluiere Schweizerdeutsch-Spracherkennungsmodelle (Whisper, WhisperX) mit systematischem WER/BLEU-Benchmarking gegen manuell erstellte Ground-Truth-Daten. Ich entwickle Fridai von einem ersten Prototypen zum fertigen Produkt mit und verantworte Requirements Engineering, KI-Modell-Integration sowie die datenschutzrechtliche Compliance nach DSG inklusive DPA-Prüfungen und DSFA-Koordination.\n\nDarüber hinaus manage ich die IT-Infrastruktur, baue komplexe Enfocus-Switch-Workflows mit Custom Scripts und treibe interne Prozessverbesserungen voran.",
       "experienceTags": [
         "Solution Architecture",
         "KI-gestützte Entwicklung",
@@ -199,7 +199,7 @@
         "9014 St.Gallen, Schweiz"
       ],
       "experienceTitle": "Application Engineer/Manager & Projektmanager",
-      "experienceDescription": "Hier kümmerte ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei war kein Tag wie der andere! Das hiess konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten. Besonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da durfte ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden! Nebenbei war ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen. Neben der technischen Arbeit schulte ich Kunden, schrieb Dokumentationen und entwickelte Schnittstellen zu verschiedenen APIs. Manchmal fühlte ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das machte mir Spass!",
+      "experienceDescription": "Hier kümmerte ich mich um die technische Betreuung unserer Kunden und deren Publishing-Systeme, und dabei war kein Tag wie der andere! Das hiess konkret: vjoon K4, Enfocus Switch und die ganzen Umsysteme wie SQL-Server, Tomcats und InDesign Server installieren, konfigurieren und am Laufen halten.\n\nBesonders stolz bin ich auf die Zusammenarbeit mit Red Bull Media House, da durfte ich deren komplette K4- und Enfocus-Switch-Umgebung betreuen. Das ist schon ziemlich cool, wenn man bedenkt, wie viele Magazine und Inhalte darüber produziert werden!\n\nNebenbei war ich auch der Go-To-Guy für IT-Support in allen möglichen Bereichen. Neben der technischen Arbeit schulte ich Kunden, schrieb Dokumentationen und entwickelte Schnittstellen zu verschiedenen APIs. Manchmal fühlte ich mich wie ein Übersetzer zwischen Technik und Mensch, und genau das machte mir Spass!",
       "experienceTags": [
         "Projektmanagement",
         "Stakeholder Management",
@@ -241,7 +241,7 @@
         "9320 Arbon, Schweiz"
       ],
       "experienceTitle": "Frontend Developer",
-      "experienceDescription": "Nebenbei entwickle ich Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen. Mir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
+      "experienceDescription": "Nebenbei entwickle ich Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen.\n\nMir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
       "experienceTags": [
         "Website Design & Development",
         "Custom Themes & Plugins",
@@ -283,7 +283,7 @@
         "9403 Goldach, Schweiz"
       ],
       "experienceTitle": "Polygraf (Print/Web)",
-      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei. Besonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben, und das war mein Einstieg in die Programmierung.",
+      "experienceDescription": "Hier hat alles angefangen! Nach meiner Lehre als Polygraf durfte ich richtig in die Publishing-Welt eintauchen. Von klassischem Layout und Druckvorstufe bis hin zu ersten Web-Projekten war alles dabei.\n\nBesonders spannend war die Arbeit mit vjoon K4 für Magazin-Produktionen und die Automatisierung von Workflows mit Enfocus Switch. Ausserdem habe ich angefangen, JavaScript-Scripts für InDesign zu schreiben, und das war mein Einstieg in die Programmierung.",
       "experienceTags": [
         "Layout & Design",
         "Digitaldruck",
