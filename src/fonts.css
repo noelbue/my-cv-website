@@ -1,13 +1,21 @@
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('./fonts/SF-Pro-Display-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SF Pro Display";
+  src: url("/fonts/SF-Pro-Display-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('./fonts/SF-Pro-Display-Heavy.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "SF Pro Display";
+  src: url("/fonts/SF-Pro-Display-Heavy.woff2") format("woff2");
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-stack:
+    "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

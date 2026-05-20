@@ -101,6 +101,10 @@ const ResumeItem = ({ entry, type, index }) => {
             src={entry[`${key}Logo`]}
             alt={entry[`${key}Title`]}
             className={styles.logo}
+            width="60"
+            height="60"
+            loading="lazy"
+            decoding="async"
           />
         </a>
         <div className={styles.headerMain}>

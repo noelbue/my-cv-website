@@ -1,5 +1,5 @@
 .skillsSection {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: var(--font-stack);
   letter-spacing: 0.05em;
   min-width: 0;
 }

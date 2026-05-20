@@ -1,5 +1,5 @@
 .resumeSection {
-  font-family: "SF Pro Display", sans-serif;
+  font-family: var(--font-stack);
   letter-spacing: 0.05em;
 }
 
@@ -90,14 +90,25 @@
 .resumeItem.current .timelineDot {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-color) 55%, transparent);
+  position: absolute;
+}
+
+.resumeItem.current .timelineDot::after,
+.nowDot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: var(--accent-color);
   animation: pulseDot 2s infinite;
+  pointer-events: none;
+  will-change: transform, opacity;
 }
 
 @keyframes pulseDot {
-  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-color) 55%, transparent); }
-  70%  { box-shadow: 0 0 0 9px transparent; }
-  100% { box-shadow: 0 0 0 0 transparent; }
+  0%   { transform: scale(1); opacity: 0.55; }
+  70%  { transform: scale(3.2); opacity: 0; }
+  100% { transform: scale(3.2); opacity: 0; }
 }
 
 .resumeHeader {
@@ -269,12 +280,11 @@
 }
 
 .nowDot {
+  position: relative;
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent-color) 60%, transparent);
-  animation: pulseDot 2s infinite;
 }
 
 @media (min-width: 768px) {

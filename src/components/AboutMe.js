@@ -19,6 +19,11 @@ const AboutMe = ({ data }) => {
             src={content.profilePicture}
             alt={content.profileTitle}
             className={styles.profilePicture}
+            width="68"
+            height="68"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
           />
           <h1 className={styles.title}>{content.profileTitle}</h1>
         </div>

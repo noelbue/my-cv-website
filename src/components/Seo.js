@@ -11,6 +11,13 @@ const Seo = () => {
             <title>{t('pageTitle')}</title>
             <meta name="description" content={t('pageDescription')} />
             <link rel="icon" href="/images/favicon.ico" />
+            <link
+                rel="preload"
+                as="font"
+                type="font/woff2"
+                href="/fonts/SF-Pro-Display-Regular.woff2"
+                crossOrigin="anonymous"
+            />
         </Helmet>
     )
 }
