@@ -82,18 +82,9 @@
   border-radius: 16px;
   padding: 1rem 1.15rem;
   box-shadow: var(--liquid-glow);
-  opacity: 0;
-  transform: translateY(10px);
   transition:
-    opacity 0.5s ease,
-    transform 0.4s ease,
     background-color 0.45s ease,
     border-color 0.25s ease;
-}
-
-.card.visible {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .card:not(.flatCard):hover {
@@ -326,9 +317,5 @@
   .collapsible,
   .chevron {
     transition: none;
-  }
-  .card {
-    opacity: 1;
-    transform: none;
   }
 }

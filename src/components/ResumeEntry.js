@@ -9,9 +9,8 @@ import {
 } from "../utils/dateRange";
 import * as styles from "./ResumeEntry.module.css";
 
-const ResumeItem = ({ entry, type, index }) => {
+const ResumeItem = ({ entry, type }) => {
   const [open, setOpen] = useState(false);
-  const [visible, setVisible] = useState(false);
   const ref = useRef(null);
   const key = type.toLowerCase();
   const { t, i18n } = useTranslation();
@@ -21,25 +20,6 @@ const ResumeItem = ({ entry, type, index }) => {
   const current = isOngoing(range);
   const duration = formatDuration(range, i18n.language);
   const [dateTag, ...metaTags] = infoTags;
-
-  useEffect(() => {
-    const node = ref.current;
-    if (!node || typeof IntersectionObserver === "undefined") {
-      setVisible(true);
-      return;
-    }
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.15 },
-    );
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
 
   const toggle = () => setOpen((v) => !v);
   const handleKey = (e) => {
@@ -79,9 +59,8 @@ const ResumeItem = ({ entry, type, index }) => {
     <div
       ref={ref}
       className={`${styles.resumeItem} ${open ? styles.open : ""} ${
-        visible ? styles.visible : ""
-      } ${current ? styles.current : ""}`}
-      style={{ transitionDelay: visible ? "0ms" : `${index * 60}ms` }}
+        current ? styles.current : ""
+      }`}
       role="button"
       tabIndex={0}
       aria-expanded={open}
@@ -160,7 +139,7 @@ const ResumeEntry = ({ data, type }) => {
       <h2 className={styles.sectionTitle}>{t(type.toLowerCase())}</h2>
       <div className={styles.timeline}>
         {content.map((entry, index) => (
-          <ResumeItem key={index} entry={entry} type={type} index={index} />
+          <ResumeItem key={index} entry={entry} type={type} />
         ))}
       </div>
     </section>

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import { useTranslation } from "gatsby-plugin-react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -46,29 +46,7 @@ const ProficiencyDots = ({ level }) => {
   );
 };
 
-const SkillCategoryCard = ({ category, open, onToggle, index = 0 }) => {
-  const [visible, setVisible] = useState(false);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    const node = ref.current;
-    if (!node || typeof IntersectionObserver === "undefined") {
-      setVisible(true);
-      return;
-    }
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 },
-    );
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
-
+const SkillCategoryCard = ({ category, open, onToggle }) => {
   const handleKey = (e) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
@@ -78,11 +56,9 @@ const SkillCategoryCard = ({ category, open, onToggle, index = 0 }) => {
 
   return (
     <div
-      ref={ref}
       className={`${styles.card} ${styles.clickable} ${
         open ? styles.open : ""
-      } ${visible ? styles.visible : ""}`}
-      style={{ transitionDelay: visible ? "0ms" : `${index * 40}ms` }}
+      }`}
       role="button"
       tabIndex={0}
       aria-expanded={open}
@@ -168,7 +144,7 @@ const Skills = ({ data }) => {
       </div>
 
       <div className={styles.topRow}>
-        <div className={`${styles.card} ${styles.visible} ${styles.flatCard}`}>
+        <div className={`${styles.card} ${styles.flatCard}`}>
           <div className={styles.cardHeader}>
             <span className={styles.cardIcon}>
               <FontAwesomeIcon icon={faLanguage} />
@@ -193,7 +169,7 @@ const Skills = ({ data }) => {
 
         {generalCompetencies && (
           <div
-            className={`${styles.card} ${styles.visible} ${styles.flatCard}`}
+            className={`${styles.card} ${styles.flatCard}`}
           >
             <div className={styles.cardHeader}>
               <span className={styles.cardIcon}>
@@ -213,13 +189,12 @@ const Skills = ({ data }) => {
       </div>
 
       <div className={styles.cardGrid}>
-        {otherCategories.map((category, i) => (
+        {otherCategories.map((category) => (
           <SkillCategoryCard
             key={category.title}
             category={category}
             open={openSet.has(category.title)}
             onToggle={() => toggleOne(category.title)}
-            index={i}
           />
         ))}
       </div>
