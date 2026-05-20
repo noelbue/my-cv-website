@@ -1,0 +1,334 @@
+.skillsSection {
+  font-family: "SF Pro Display", sans-serif;
+  letter-spacing: 0.05em;
+  min-width: 0;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.skillsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+  min-height: 40px;
+}
+
+.expandToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: color-mix(in srgb, var(--box-background) 55%, transparent);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border: 1px solid color-mix(in srgb, var(--text-color) 8%, transparent);
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.expandToggle:hover {
+  border-color: color-mix(in srgb, var(--text-color) 25%, transparent);
+}
+
+.expandToggle:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
+
+.expandChevron {
+  display: inline-flex;
+  font-size: 10px;
+  transition: transform 0.3s ease;
+}
+
+.expandChevronOpen {
+  transform: rotate(180deg);
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+@media (min-width: 700px) {
+  .topRow {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  }
+}
+
+.card {
+  min-width: 0;
+  background-color: color-mix(in srgb, var(--box-background) 55%, transparent);
+  backdrop-filter: saturate(160%) blur(18px);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
+  border: 1px solid color-mix(in srgb, var(--text-color) 8%, transparent);
+  border-radius: 16px;
+  padding: 1rem 1.15rem;
+  box-shadow: var(--liquid-glow);
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.4s ease,
+    background-color 0.45s ease,
+    border-color 0.25s ease;
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:not(.flatCard):hover {
+  border-color: color-mix(in srgb, var(--text-color) 25%, transparent);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flatCard .cardHeader {
+  margin-bottom: 0.7rem;
+}
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.clickable:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 4px;
+}
+
+.cardIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background-color: var(--accent-pill-bg);
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  border: 1px solid var(--accent-pill-border);
+  color: var(--accent-pill-fg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.cardTitle {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text-color);
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flatCard .cardTitle {
+  font-size: 16px;
+  white-space: normal;
+}
+
+.chevron {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: var(--text-color);
+  opacity: 0.55;
+  font-size: 11px;
+  transition:
+    transform 0.3s ease,
+    opacity 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.card:hover .chevron {
+  opacity: 1;
+  background-color: var(--infotag-background);
+}
+
+.card.open .chevron {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+.collapsible {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+  min-width: 0;
+}
+
+.card.open .collapsible {
+  grid-template-rows: 1fr;
+}
+
+.collapsibleInner {
+  overflow: hidden;
+  min-height: 0;
+  min-width: 0;
+  padding-top: 0;
+  transition: padding-top 0.3s ease;
+}
+
+.card.open .collapsibleInner {
+  padding-top: 0.7rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.competenciesChips {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem;
+}
+
+.competenciesChips .chip {
+  justify-self: start;
+}
+
+.chip {
+  background-color: var(--neutral-pill-bg);
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  border: 1px solid var(--neutral-pill-border);
+  color: var(--neutral-pill-fg);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.32rem 0.6rem;
+  border-radius: 8px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  min-width: 0;
+  align-items: start;
+}
+
+@media (min-width: 520px) {
+  .cardGrid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+.languageList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.languageItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.languageHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.languageName {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.languageLevel {
+  font-size: 10px;
+  font-weight: 700;
+  background-color: var(--accent-pill-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--accent-pill-border);
+  color: var(--accent-pill-fg);
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+  letter-spacing: 0.03em;
+}
+
+.languageNote {
+  font-size: 10px;
+  color: var(--text-color);
+  opacity: 0.55;
+  letter-spacing: 0.04em;
+}
+
+.dots {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--infotag-background);
+  display: inline-block;
+}
+
+.dotFilled {
+  background-color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size: 30px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .collapsible,
+  .chevron {
+    transition: none;
+  }
+  .card {
+    opacity: 1;
+    transform: none;
+  }
+}

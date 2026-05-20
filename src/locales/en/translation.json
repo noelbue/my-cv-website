@@ -2,6 +2,22 @@
     "pageTitle": "Noel Bürgler - Application Engineer",
     "pageDescription": "Personal CV website of Noel Bürgler, an Application Engineer specializing in publishing solutions.",
     "aboutMe": "About Me",
+    "skills": "Skills",
+    "languages": "Languages",
     "experience": "Experience",
-    "education": "Education"
+    "education": "Education",
+    "now": "Now",
+    "quickLinks": "Quick Links",
+    "settings": "Design & Language",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "statsYears": "Years experience",
+    "statsRoles": "Roles",
+    "statsTechnologies": "Technologies",
+    "statsLanguages": "Languages",
+    "tooltipDarkMode": "Switch to dark mode",
+    "tooltipLightMode": "Switch to light mode",
+    "tooltipSwitchToDe": "Switch to German",
+    "tooltipSwitchToEn": "Switch to English",
+    "tooltipDownloadCv": "Download CV (PDF)"
 }

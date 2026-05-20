@@ -1,26 +1,37 @@
 :root {
-  --background-color: #ffffff;
-  --text-color: #000000;
-  --tag-background: #f0f0f0;
+  --background-color: #eef1f9;
+  --text-color: #141414;
+  --tag-background: #e6e9ff;
+  --tag-text-color: #001fff;
+  --infotag-background: #f2f2f2;
+  --infotag-text-color: #5f5f5f;
+  --box-background: #ffffff;
+  --accent-color: #5368ff;
+  --accent-pill-bg: color-mix(in srgb, var(--accent-color) 12%, transparent);
+  --accent-pill-border: color-mix(in srgb, var(--accent-color) 55%, transparent);
+  --accent-pill-fg: var(--accent-color);
+  --neutral-pill-bg: color-mix(in srgb, var(--infotag-background) 65%, transparent);
+  --neutral-pill-border: color-mix(in srgb, var(--text-color) 8%, transparent);
+  --neutral-pill-fg: var(--infotag-text-color);
 }
 
 :root.dark-mode {
   --background-color: #141414;
   --text-color: #f2f2f2;
-  --about-me-tag-background: #e85f46;
-  --about-me-text-color: #fff1e6;
-  --tag-background: #5368ff;
-  --tag-text-color: #e6e9ff;
+  --tag-background: #a3b5ff;
+  --tag-text-color: #ffffff;
   --infotag-background: #3e3e3e;
   --infotag-text-color: #f2f2f2;
   --box-background: #272727;
+  --accent-color: #b833ff;
+  --neutral-pill-bg: color-mix(in srgb, var(--infotag-background) 35%, transparent);
+  --neutral-pill-border: color-mix(in srgb, var(--text-color) 18%, transparent);
+  --neutral-pill-fg: color-mix(in srgb, var(--text-color) 92%, transparent);
 }
 
 :root.light-mode {
   --background-color: #eef1f9;
   --text-color: #141414;
-  --about-me-tag-background: #fff1e6;
-  --about-me-text-color: #ff2700;
   --tag-background: #e6e9ff;
   --tag-text-color: #001fff;
   --infotag-background: #f2f2f2;
@@ -32,39 +43,115 @@
   :root:not(.light-mode) {
     --background-color: #141414;
     --text-color: #f2f2f2;
-    --about-me-tag-background: #e85f46;
-    --about-me-text-color: #fff1e6;
-    --tag-background: #5368ff;
-    --tag-text-color: #e6e9ff;
+    --tag-background: #a3b5ff;
+    --tag-text-color: #ffffff;
     --infotag-background: #3e3e3e;
     --infotag-text-color: #f2f2f2;
     --box-background: #272727;
+    --accent-color: #b833ff;
+    --neutral-pill-bg: color-mix(in srgb, var(--infotag-background) 35%, transparent);
+    --neutral-pill-border: color-mix(in srgb, var(--text-color) 18%, transparent);
+    --neutral-pill-fg: color-mix(in srgb, var(--text-color) 92%, transparent);
   }
 }
 
-@media (prefers-color-scheme: light) {
-  :root:not(.dark-mode) {
-    --background-color: #eef1f9;
-    --text-color: #141414;
-    --about-me-tag-background: #fff1e6;
-    --about-me-text-color: #ff2700;
-    --tag-background: #e6e9ff;
-    --tag-text-color: #001fff;
-    --infotag-background: #f2f2f2;
-    --infotag-text-color: #5f5f5f;
-    --box-background: #ffffff;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 html,
 body {
-  background-color: var(--background-color);
   color: var(--text-color);
   margin: 0;
   padding: 0;
   font-family: "SF Pro Display", sans-serif;
 }
 
+:root {
+  --liquid-glow:
+    inset 0 1px 0 color-mix(in srgb, white 22%, transparent),
+    inset 0 -1px 0 color-mix(in srgb, black 6%, transparent),
+    inset 1px 0 0 color-mix(in srgb, white 8%, transparent),
+    inset -1px 0 0 color-mix(in srgb, white 4%, transparent);
+}
+
+:root.dark-mode,
+:root:not(.light-mode) {
+  --liquid-glow:
+    inset 0 1px 0 color-mix(in srgb, white 18%, transparent),
+    inset 0 -1px 0 color-mix(in srgb, black 12%, transparent),
+    inset 1px 0 0 color-mix(in srgb, white 6%, transparent),
+    inset -1px 0 0 color-mix(in srgb, white 3%, transparent);
+}
+
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px);
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+  background-color: color-mix(in srgb, var(--box-background) 70%, transparent);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border: 1px solid color-mix(in srgb, var(--text-color) 10%, transparent);
+  border-radius: 8px;
+  padding: 0.35rem 0.6rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+  z-index: 100;
+}
+
+[data-tooltip]:hover::after,
+[data-tooltip]:focus-visible::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+@media (hover: none) {
+  [data-tooltip]::after {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-tooltip]::after {
+    transition: none;
+  }
+}
+
 body {
   min-height: 100vh;
+  background-color: var(--background-color);
+  transition: background-color 0.45s ease;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+  transition: color 0.45s ease;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.5s;
+}
+
+::view-transition-old(root) {
+  animation-timing-function: ease-out;
+}
+::view-transition-new(root) {
+  animation-timing-function: ease-in;
 }

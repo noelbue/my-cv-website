@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react'
+import { flushSync } from 'react-dom'
 
 export const ThemeContext = createContext()
 
@@ -23,7 +24,20 @@ export const ThemeProvider = ({ children }) => {
     }, [isDarkMode])
 
     const toggleTheme = () => {
-        setIsDarkMode(prevMode => !prevMode)
+        const update = () => setIsDarkMode(prev => !prev)
+        const supportsVT =
+            typeof document !== 'undefined' &&
+            typeof document.startViewTransition === 'function'
+        const reduceMotion =
+            typeof window !== 'undefined' &&
+            window.matchMedia &&
+            window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+        if (supportsVT && !reduceMotion) {
+            document.startViewTransition(() => flushSync(update))
+        } else {
+            update()
+        }
     }
 
     return (

@@ -9,7 +9,6 @@ exports.createSchemaCustomization = ({ actions }) => {
         profilePicture: String
         profileTitle: String
         profileDescription: String
-        profileTags: [String]
       }
       type CustomExperienceJson implements Node @dontInfer {
         en: [ExperienceContent]
@@ -34,6 +33,24 @@ exports.createSchemaCustomization = ({ actions }) => {
         educationTitle: String
         educationDescription: String
         educationTags: [String]
+      }
+      type CustomSkillsJson implements Node @dontInfer {
+        en: SkillsContent
+        de: SkillsContent
+      }
+      type SkillsContent {
+        languages: [LanguageEntry]
+        categories: [SkillCategory]
+      }
+      type LanguageEntry {
+        name: String
+        level: String
+        note: String
+      }
+      type SkillCategory {
+        icon: String
+        title: String
+        items: [String]
       }
     `;
   createTypes(typeDefs);
@@ -67,6 +84,8 @@ exports.onCreateNode = async ({ node, actions, loadNodeContent }) => {
       typeName = "CustomExperienceJson";
     } else if (nodeName === "education") {
       typeName = "CustomEducationJson";
+    } else if (nodeName === "skills") {
+      typeName = "CustomSkillsJson";
     } else {
       return;
     }

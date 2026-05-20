@@ -6,6 +6,7 @@ import {
   faPhone,
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 import * as styles from "./SocialLinks.module.css";
 
 const iconMap = {
@@ -16,6 +17,7 @@ const iconMap = {
 };
 
 const SocialLinks = ({ links }) => {
+  const { t } = useTranslation();
   return (
     <div className={styles.socialLinks}>
       {links.map((link, index) => (
@@ -26,6 +28,7 @@ const SocialLinks = ({ links }) => {
           rel="noopener noreferrer"
           className={styles.socialLink}
           aria-label={link.name}
+          data-tooltip={link.name}
         >
           <FontAwesomeIcon icon={iconMap[link.icon]} />
         </a>
@@ -34,7 +37,8 @@ const SocialLinks = ({ links }) => {
         href="/CV_Noel-Buergler.pdf"
         download="Noel_Buergler_CV.pdf"
         className={styles.socialLink}
-        aria-label="Download CV as PDF"
+        aria-label={t("tooltipDownloadCv")}
+        data-tooltip={t("tooltipDownloadCv")}
       >
         <FontAwesomeIcon icon={faFilePdf} />
       </a>

@@ -1,0 +1,159 @@
+.blobLayer,
+.aurora,
+.noise {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.blobLayer {
+  z-index: 0;
+}
+
+.blob {
+  position: absolute;
+  width: 85vw;
+  height: 85vw;
+  max-width: 1400px;
+  max-height: 1400px;
+  border-radius: 50%;
+  filter: blur(130px);
+  will-change: transform;
+  opacity: 0.13;
+}
+
+.blob1 {
+  top: -10%;
+  left: -10%;
+  background: radial-gradient(
+    circle at center,
+    #5368ff 0%,
+    transparent 65%
+  );
+  animation: drift1 38s ease-in-out infinite alternate;
+}
+
+.blob2 {
+  top: 60%;
+  left: 70%;
+  background: radial-gradient(
+    circle at center,
+    #e85f46 0%,
+    transparent 65%
+  );
+  animation: drift2 52s ease-in-out infinite alternate;
+}
+
+.blob3 {
+  top: -5%;
+  left: 65%;
+  background: radial-gradient(
+    circle at center,
+    #5368ff 0%,
+    transparent 65%
+  );
+  animation: drift3 44s ease-in-out infinite alternate;
+}
+
+.blob4 {
+  top: 55%;
+  left: -15%;
+  background: radial-gradient(
+    circle at center,
+    #b864ff 0%,
+    transparent 65%
+  );
+  animation: drift4 60s ease-in-out infinite alternate;
+}
+
+.blob5 {
+  top: 70%;
+  left: 30%;
+  background: radial-gradient(
+    circle at center,
+    #64d2ff 0%,
+    transparent 65%
+  );
+  animation: drift5 48s ease-in-out infinite alternate;
+}
+
+@keyframes drift1 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(45vw, 25vh) scale(1.15); }
+  100% { transform: translate(20vw, 60vh) scale(0.95); }
+}
+
+@keyframes drift2 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-50vw, -30vh) scale(1.1); }
+  100% { transform: translate(-25vw, -60vh) scale(0.9); }
+}
+
+@keyframes drift3 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(-40vw, 40vh) scale(1.2); }
+  100% { transform: translate(-15vw, 70vh) scale(1); }
+}
+
+@keyframes drift4 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(60vw, -40vh) scale(1.1); }
+  100% { transform: translate(30vw, -25vh) scale(0.95); }
+}
+
+@keyframes drift5 {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(35vw, -55vh) scale(0.9); }
+  100% { transform: translate(-20vw, -30vh) scale(1.1); }
+}
+
+.noise {
+  z-index: 50;
+  opacity: 0.05;
+  background-repeat: repeat;
+  background-size: 240px 240px;
+  mix-blend-mode: overlay;
+}
+
+.aurora {
+  inset: -25%;
+  z-index: 1;
+  background:
+    linear-gradient(
+      115deg,
+      transparent 25%,
+      color-mix(in srgb, #5368ff 12%, transparent) 45%,
+      color-mix(in srgb, #5368ff 18%, transparent) 55%,
+      transparent 75%
+    ),
+    linear-gradient(
+      295deg,
+      transparent 30%,
+      color-mix(in srgb, #b864ff 10%, transparent) 50%,
+      transparent 70%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 35%,
+      color-mix(in srgb, #64d2ff 9%, transparent) 50%,
+      transparent 65%
+    );
+  filter: blur(50px);
+  mix-blend-mode: screen;
+  animation: auroraDrift 40s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes auroraDrift {
+  0%   { transform: translate(-3%, -2%) rotate(0deg) scale(1); }
+  50%  { transform: translate(3%, 1%) rotate(1.5deg) scale(1.04); }
+  100% { transform: translate(-2%, 3%) rotate(-1deg) scale(1.02); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob,
+  .aurora {
+    animation: none;
+  }
+}

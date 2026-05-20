@@ -4,11 +4,11 @@ import * as styles from "./AboutMe.module.css";
 
 const AboutMe = ({ data }) => {
   const { t, i18n } = useTranslation();
-  const content = data && data[i18n.language];
 
-  if (!content) {
-    return null; // or some fallback UI
-  }
+  const content = data && data[i18n.language];
+  if (!content) return null;
+
+  const paragraphs = content.profileDescription.split("\n").filter(Boolean);
 
   return (
     <div className={styles.aboutMeWrapper}>
@@ -23,15 +23,8 @@ const AboutMe = ({ data }) => {
           <h1 className={styles.title}>{content.profileTitle}</h1>
         </div>
         <div className={styles.description}>
-          {content.profileDescription.split("\n").map((line, index) => (
+          {paragraphs.map((line, index) => (
             <p key={index}>{line}</p>
-          ))}
-        </div>
-        <div className={styles.tags}>
-          {content.profileTags.map((tag, index) => (
-            <span key={index} className={styles.tag}>
-              {tag}
-            </span>
           ))}
         </div>
       </div>

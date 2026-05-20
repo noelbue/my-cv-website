@@ -1,0 +1,222 @@
+{
+  "en": {
+    "languages": [
+      { "name": "German", "level": "C2", "note": "Native" },
+      { "name": "English", "level": "C1" },
+      { "name": "French", "level": "A2" }
+    ],
+    "categories": [
+      {
+        "icon": "code",
+        "title": "Programming & Web",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "PHP",
+          "Python",
+          "HTML",
+          "CSS / SCSS",
+          "Tailwind CSS",
+          "Regex"
+        ]
+      },
+      {
+        "icon": "layer-group",
+        "title": "Frameworks & Libraries",
+        "items": [
+          "Express.js",
+          "Node.js",
+          "Vue.js",
+          "Nuxt.js",
+          "React.js",
+          "Next.js",
+          "Prisma"
+        ]
+      },
+      {
+        "icon": "database",
+        "title": "Databases & Backend",
+        "items": ["MSSQL", "MySQL", "PostgreSQL"]
+      },
+      {
+        "icon": "server",
+        "title": "CI/CD & DevOps",
+        "items": ["Git", "Docker", "Netlify", "Pipelines"]
+      },
+      {
+        "icon": "plug",
+        "title": "API Development & Integration",
+        "items": ["REST", "Axios", "Office", "Adobe"]
+      },
+      {
+        "icon": "newspaper",
+        "title": "Publishing Systems",
+        "items": [
+          "vjoon K4",
+          "Adobe InDesign Server",
+          "Contentful",
+          "WordPress"
+        ]
+      },
+      {
+        "icon": "gears",
+        "title": "Workflow Automation",
+        "items": [
+          "Enfocus Switch (incl. Scripting)",
+          "XMPie",
+          "Heidelberg Cockpit"
+        ]
+      },
+      {
+        "icon": "print",
+        "title": "Print & Media Production",
+        "items": [
+          "Adobe Creative Cloud",
+          "Layout",
+          "Typography",
+          "Prepress"
+        ]
+      },
+      {
+        "icon": "network-wired",
+        "title": "IT Infrastructure & Management",
+        "items": [
+          "Azure AD",
+          "Microsoft Intune",
+          "Active Directory",
+          "Network Administration",
+          "System Patching",
+          "ITIL",
+          "Atlassian Administration"
+        ]
+      },
+      {
+        "icon": "handshake",
+        "title": "General Competencies",
+        "items": [
+          "Agile Methods (Scrum)",
+          "Solutions Architecture",
+          "Requirements Engineering",
+          "Process Optimization",
+          "Project Management",
+          "Stakeholder Management",
+          "Problem-Solving",
+          "Quick Learner",
+          "Team Player",
+          "Digital Communication",
+          "AI Integration"
+        ]
+      }
+    ]
+  },
+  "de": {
+    "languages": [
+      { "name": "Deutsch", "level": "C2", "note": "Muttersprache" },
+      { "name": "Englisch", "level": "C1" },
+      { "name": "Französisch", "level": "A2" }
+    ],
+    "categories": [
+      {
+        "icon": "code",
+        "title": "Programmiersprachen & Web",
+        "items": [
+          "TypeScript",
+          "JavaScript",
+          "PHP",
+          "Python",
+          "HTML",
+          "CSS / SCSS",
+          "Tailwind CSS",
+          "Regex"
+        ]
+      },
+      {
+        "icon": "layer-group",
+        "title": "Frameworks & Libraries",
+        "items": [
+          "Express.js",
+          "Node.js",
+          "Vue.js",
+          "Nuxt.js",
+          "React.js",
+          "Next.js",
+          "Prisma"
+        ]
+      },
+      {
+        "icon": "database",
+        "title": "Datenbanken & Backend",
+        "items": ["MSSQL", "MySQL", "PostgreSQL"]
+      },
+      {
+        "icon": "server",
+        "title": "CI/CD & DevOps",
+        "items": ["Git", "Docker", "Netlify", "Pipelines"]
+      },
+      {
+        "icon": "plug",
+        "title": "API-Entwicklung & Integration",
+        "items": ["REST", "Axios", "Office", "Adobe"]
+      },
+      {
+        "icon": "newspaper",
+        "title": "Publishing-Systeme",
+        "items": [
+          "vjoon K4",
+          "Adobe InDesign Server",
+          "Contentful",
+          "WordPress"
+        ]
+      },
+      {
+        "icon": "gears",
+        "title": "Workflow-Automatisierung",
+        "items": [
+          "Enfocus Switch (inkl. Scripting)",
+          "XMPie",
+          "Heidelberg Cockpit"
+        ]
+      },
+      {
+        "icon": "print",
+        "title": "Druck & Medienproduktion",
+        "items": [
+          "Adobe Creative Cloud",
+          "Layout",
+          "Typografie",
+          "Druckvorstufe"
+        ]
+      },
+      {
+        "icon": "network-wired",
+        "title": "IT-Infrastruktur & Management",
+        "items": [
+          "Azure AD",
+          "Microsoft Intune",
+          "Active Directory",
+          "Netzwerkadministration",
+          "System-Patching",
+          "ITIL",
+          "Atlassian-Administration"
+        ]
+      },
+      {
+        "icon": "handshake",
+        "title": "Allgemeine Kompetenzen",
+        "items": [
+          "Agile Methoden (Scrum)",
+          "Solutions Architecture",
+          "Requirements Engineering",
+          "Prozessoptimierung",
+          "Projektmanagement",
+          "Stakeholder-Management",
+          "Problemlösung",
+          "Schnelle Auffassungsgabe",
+          "Teamfähigkeit",
+          "Digitale Kommunikation",
+          "KI-Integration"
+        ]
+      }
+    ]
+  }
+}

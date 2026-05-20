@@ -40,6 +40,49 @@
       ]
     },
     {
+      "experienceLogo": "/images/bbs-logo.png",
+      "experienceLogoUrl": "https://b-business-solutions.ch",
+      "experienceInfoTags": [
+        "January 2021 - present",
+        "Remote",
+        "Part-Time Freelance",
+        "9326 Horn, Switzerland"
+      ],
+      "experienceTitle": "Frontend Developer (Self-employed)",
+      "experienceDescription": "On the side, I run my own small freelance practice building websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications.\n\nI particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
+      "experienceTags": [
+        "Self-employed",
+        "Website Design & Development",
+        "Custom Themes & Plugins",
+        "WordPress",
+        "Contentful",
+        "Git",
+        "HTML",
+        "SCSS/SASS",
+        "Tailwind CSS",
+        "JS",
+        "PHP",
+        "TypeScript",
+        "React.js",
+        "Redux",
+        "Next.js",
+        "Axios",
+        "Vue.js",
+        "node.js",
+        "Express.js",
+        "Gatsby.js",
+        "Vite",
+        "Shadcn",
+        "Supabase",
+        "Stripe",
+        "Prisma",
+        "MySQL",
+        "Netlify",
+        "CI/CD Pipelines",
+        "Microsoft Power BI"
+      ]
+    },
+    {
       "experienceLogo": "/images/topix-ag-logo.png",
       "experienceLogoUrl": "https://www.topix.ch",
       "experienceInfoTags": [
@@ -80,48 +123,6 @@
         "Node.js",
         "React.js",
         "Regex"
-      ]
-    },
-    {
-      "experienceLogo": "/images/bbs-logo.png",
-      "experienceLogoUrl": "https://b-business-solutions.ch",
-      "experienceInfoTags": [
-        "January 2021 - present",
-        "Remote",
-        "Part Time",
-        "9320 Arbon, Switzerland"
-      ],
-      "experienceTitle": "Frontend Developer",
-      "experienceDescription": "On the side, I develop websites and web applications for various clients. Most of the time, these are WordPress projects with custom themes and plugins, but also modern React and Next.js applications.\n\nI particularly enjoy the variety: sometimes it's a simple company website, sometimes it's a complex web app with database integration. From the first idea to go-live, I personally support my clients.",
-      "experienceTags": [
-        "Website Design & Development",
-        "Custom Themes & Plugins",
-        "WordPress",
-        "Contentful",
-        "Git",
-        "HTML",
-        "SCSS/SASS",
-        "Tailwind CSS",
-        "JS",
-        "PHP",
-        "TypeScript",
-        "React.js",
-        "Redux",
-        "Next.js",
-        "Axios",
-        "Vue.js",
-        "node.js",
-        "Express.js",
-        "Gatsby.js",
-        "Vite",
-        "Shadcn",
-        "Supabase",
-        "Stripe",
-        "Prisma",
-        "MySQL",
-        "Netlify",
-        "CI/CD Pipelines",
-        "Microsoft Power BI"
       ]
     },
     {
@@ -190,6 +191,49 @@
       ]
     },
     {
+      "experienceLogo": "/images/bbs-logo.png",
+      "experienceLogoUrl": "https://b-business-solutions.ch",
+      "experienceInfoTags": [
+        "Januar 2021 - heute",
+        "Remote",
+        "Teilzeit (Selbstständig)",
+        "9326 Horn, Schweiz"
+      ],
+      "experienceTitle": "Frontend Developer (Selbstständig)",
+      "experienceDescription": "Nebenberuflich führe ich meine kleine selbstständige Tätigkeit und entwickle Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen.\n\nMir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
+      "experienceTags": [
+        "Selbstständig",
+        "Website Design & Development",
+        "Custom Themes & Plugins",
+        "WordPress",
+        "Contentful",
+        "Git",
+        "HTML",
+        "SCSS/SASS",
+        "Tailwind CSS",
+        "JS",
+        "PHP",
+        "TypeScript",
+        "React.js",
+        "Redux",
+        "Next.js",
+        "Axios",
+        "Vue.js",
+        "node.js",
+        "Express.js",
+        "Gatsby.js",
+        "Vite",
+        "Shadcn",
+        "Supabase",
+        "Stripe",
+        "Prisma",
+        "MySQL",
+        "Netlify",
+        "CI/CD Pipelines",
+        "Microsoft Power BI"
+      ]
+    },
+    {
       "experienceLogo": "/images/topix-ag-logo.png",
       "experienceLogoUrl": "https://www.topix.ch",
       "experienceInfoTags": [
@@ -229,48 +273,6 @@
         "Node.js",
         "React.js",
         "Regex"
-      ]
-    },
-    {
-      "experienceLogo": "/images/bbs-logo.png",
-      "experienceLogoUrl": "https://b-business-solutions.ch",
-      "experienceInfoTags": [
-        "Januar 2021 - heute",
-        "Remote",
-        "Teilzeit",
-        "9320 Arbon, Schweiz"
-      ],
-      "experienceTitle": "Frontend Developer",
-      "experienceDescription": "Nebenbei entwickle ich Websites und Web-Anwendungen für verschiedene Kunden. Meistens sind das WordPress-Projekte mit massgeschneiderten Themes und Plugins, aber auch moderne React- und Next.js-Anwendungen.\n\nMir gefällt besonders die Vielfalt: Mal ist es eine einfache Firmenwebsite, mal eine komplexe Web-App mit Datenbank-Anbindung. Von der ersten Idee bis zum Go-Live betreue ich meine Kunden persönlich.",
-      "experienceTags": [
-        "Website Design & Development",
-        "Custom Themes & Plugins",
-        "WordPress",
-        "Contentful",
-        "Git",
-        "HTML",
-        "SCSS/SASS",
-        "Tailwind CSS",
-        "JS",
-        "PHP",
-        "TypeScript",
-        "React.js",
-        "Redux",
-        "Next.js",
-        "Axios",
-        "Vue.js",
-        "node.js",
-        "Express.js",
-        "Gatsby.js",
-        "Vite",
-        "Shadcn",
-        "Supabase",
-        "Stripe",
-        "Prisma",
-        "MySQL",
-        "Netlify",
-        "CI/CD Pipelines",
-        "Microsoft Power BI"
       ]
     },
     {
